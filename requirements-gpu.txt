@@ -1,0 +1,7 @@
+onnxruntime-gpu==1.30.0
+nvidia-cuda-runtime==13.0.96
+nvidia-cublas==13.1.1.3
+nvidia-curand==10.4.0.35
+nvidia-cudnn-cu13==9.20.0.48
+tensorrt-cu13==10.16.1.11
+onnx==1.22.0

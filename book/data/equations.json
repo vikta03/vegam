@@ -1,0 +1,86 @@
+{
+  "input_projection": [
+    "H^{(0)}=XW_{in}^{T}+b_{in}+E",
+    "H^{(0)}_{sj}=\\sum_{c=0}^{119}X_{sc}W_{in,jc}+b_{in,j}+E_{sj}"
+  ],
+  "layernorm": [
+    "m=\\frac{1}{d}\\sum_{r=1}^{d}x_r,\\quad v=\\frac{1}{d}\\sum_{r=1}^{d}(x_r-m)^2",
+    "\\operatorname{LN}(x)_r=\\gamma_r\\frac{x_r-m}{\\sqrt{v+\\epsilon}}+\\beta_r"
+  ],
+  "qkv": [
+    "Q=ZW_Q,\\qquad K=ZW_K,\\qquad V=ZW_V"
+  ],
+  "bilinear": [
+    "q_i k_j^T=z_iW_QW_K^Tz_j^T=z_iMz_j^T"
+  ],
+  "scale_variance": [
+    "\\operatorname{Var}\\!\\left(\\sum_{r=1}^{d}q_rk_r\\right)=d",
+    "\\operatorname{Var}\\!\\left(\\frac{q\\cdot k}{\\sqrt{d}}\\right)=1\\quad\\mathrm{(under\\ stated\\ assumptions)}"
+  ],
+  "softmax": [
+    "p_j=\\frac{e^{l_j}}{\\sum_k e^{l_k}},\\qquad \\frac{p_i}{p_j}=e^{l_i-l_j}"
+  ],
+  "gates": [
+    "u=\\operatorname{vec}(\\operatorname{Compress}(Z))",
+    "g=\\tanh\\!\\left(\\operatorname{GELU}(uW_1+b_1)W_2+b_2\\right)"
+  ],
+  "adaptive": [
+    "D_{hij}=\\sum_{r=1}^{16}L_{hir}\\,g_{hr}\\,R_{hjr}",
+    "D_h=L_h\\operatorname{diag}(g_h)R_h^T"
+  ],
+  "transport": [
+    "Y_i=\\sum_{j=1}^{64}A_{ij}V_j,\\qquad Y=AV"
+  ],
+  "residual": [
+    "X^{\\prime}=X+\\operatorname{AttentionUpdate}(\\operatorname{LN}_1(X))",
+    "X_{next}=X^{\\prime}+\\operatorname{GELU}(\\operatorname{LN}_2(X^{\\prime})W_1+b_1)W_2+b_2"
+  ],
+  "wdl": [
+    "W=\\frac{1-D+q}{2},\\quad L=\\frac{1-D-q}{2},\\quad q=W-L"
+  ],
+  "crossentropy": [
+    "\\mathcal{L}_{policy}=-\\sum_i y_i\\log p_i",
+    "H(y)=-\\sum_i y_i\\log y_i,\\quad D_{KL}(y\\Vert p)=\\mathcal{L}_{policy}-H(y)"
+  ],
+  "loss_total": [
+    "\\mathcal{L}=\\mathcal{L}_{policy}+\\mathcal{L}_{state}+0.5\\mathcal{L}_{action}",
+    "\\phantom{\\mathcal{L}=}+0.25\\mathcal{L}_{outcome}+0.05\\mathcal{L}_{duration}"
+  ],
+  "duration": [
+    "y=\\log(1+t),\\quad z=(y-\\mu)e^{-\\log\\sigma}",
+    "\\ell_{observed}=\\frac{z^2}{2}+\\log\\sigma,\\quad\\ell_{censored}=-\\log\\Phi(-z)"
+  ],
+  "ce_gradient": [
+    "\\frac{\\partial\\mathcal{L}}{\\partial l_k}=p_k-y_k,\\qquad w_{new}=w-\\eta\\nabla_w\\mathcal{L}"
+  ],
+  "attention_gradient": [
+    "\\frac{\\partial a_i}{\\partial l_j}=a_i(\\delta_{ij}-a_j)",
+    "\\frac{\\partial J}{\\partial l_j}=a_j\\left(v_{j,0}-\\sum_k a_kv_{k,0}\\right)"
+  ],
+  "adam": [
+    "m_t=\\beta_1m_{t-1}+(1-\\beta_1)g_t,\\quad v_t=\\beta_2v_{t-1}+(1-\\beta_2)g_t^2",
+    "\\hat m_t=\\frac{m_t}{1-\\beta_1^t},\\quad\\hat v_t=\\frac{v_t}{1-\\beta_2^t}",
+    "w_t=(1-\\eta\\lambda)w_{t-1}-\\eta\\frac{\\hat m_t}{\\sqrt{\\hat v_t}+\\epsilon}"
+  ],
+  "decoder": [
+    "a_m=s_m+d_m+\\frac{s_m\\odot d_m}{8}+g+p_m+k_m",
+    "h_m=\\operatorname{GELU}(\\operatorname{GELU}(a_m)W_J+b_J)",
+    "[l_m,u_{m,W},u_{m,D},u_{m,L}]=h_mW_{out}+b_{out}"
+  ],
+  "readout": [
+    "l_{Bg7}-l_{Bf4}=\\sum_{r=0}^{63}w_r\\left(h_{Bg7,r}-h_{Bf4,r}\\right)"
+  ],
+  "puct": [
+    "\\mathrm{selection}\\ \\approx\\ Q+cP\\frac{\\sqrt{N_{parent}}}{1+N_{child}}"
+  ],
+  "coldq": [
+    "Q_{cold}=0.75\\,FPU+0.25\\,(q_{action}+s_{draw}d_{action})"
+  ],
+  "score_fallback": [
+    "cp_{fallback}=45\\tan(1.56728071628\\,WL)"
+  ],
+  "sae": [
+    "f=\\operatorname{ReLU}(xW_{enc}+b_{enc}),\\quad\\hat x=fW_{dec}+b_{dec}",
+    "\\mathcal{L}_{SAE}=\\Vert x-\\hat x\\Vert_2^2+\\lambda\\Vert f\\Vert_1"
+  ]
+}

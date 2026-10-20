@@ -1,0 +1,17 @@
+{
+  "model.onnx": {
+    "sha256": "1534cbc469babebbb6225e0c5890ffeb984fc08e313fd84c78b674974d79e943",
+    "bytes": 19664312,
+    "url": "https://github.com/vikta03/vegam/releases/download/v1.0.0/model.onnx"
+  },
+  "model.trt-source.onnx": {
+    "sha256": "cd9c9676da5a99847342d83b5ccc57d22b50b72d1c131085af341bb6291041ce",
+    "bytes": 19975562,
+    "url": "https://github.com/vikta03/vegam/releases/download/v1.0.0/model.trt-source.onnx"
+  },
+  "vegam-epoch3-ema.pt": {
+    "sha256": "e38ede33c5424fe7a9578425abf234e6c20e4dba7524145d5311c50344356b2f",
+    "bytes": 39263436,
+    "url": "https://github.com/vikta03/vegam/releases/download/v1.0.0/vegam-epoch3-ema.pt"
+  }
+}

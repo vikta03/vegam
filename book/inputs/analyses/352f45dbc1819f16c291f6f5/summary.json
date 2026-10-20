@@ -1,0 +1,1002 @@
+{
+  "id": "352f45dbc1819f16c291f6f5",
+  "provenance": {
+    "schema": 1,
+    "model_sha256": "1534cbc469babebbb6225e0c5890ffeb984fc08e313fd84c78b674974d79e943",
+    "checkpoint_sha256": "79a46c94eac4739abf5b9ae1ba37e4fd4d17a838527d172c63ffae7c12afb6db",
+    "binary_sha256": "3824cc57b9a7403bd13baabeb69799186271cea24e42c8f1957ae4ff38633482",
+    "code_sha256": "5fd9fe88dacb856da50f3f6c",
+    "config": {
+      "width": 384,
+      "blocks": 8,
+      "heads": 12,
+      "ffn": 576,
+      "rank": 16,
+      "adaptive": true,
+      "action_values": true,
+      "channels": 120
+    },
+    "model_definition_sha256": "82c6978e44c0c252b89feaef4c14b8f3b8a9ec9e6e98440db6a5a94c717906cd",
+    "native_runtime": {
+      "model.trt.onnx": "b2ede03c4ccf3870f7f77f6e36d50e5df2ccd565a0771c68b4d4b1510c70bfe6",
+      "model.trt.engine": "0e0804332892076f16c2932a38b9aeeae22f7e996b10e1af15a866552f54d97f",
+      "lc0.config": "879cd1331e73ca326e945b53b6e764b60be7e7db5972f872c3a765ede7a57e87",
+      "vegamt-tf3-q": "7582b995031e9f19641a7d628b3233d7e80e5d6964962814bd61a85bcb4fbe5b"
+    }
+  },
+  "measured_utc": "2026-10-09T16:35:38.963273+00:00",
+  "outputs": {
+    "state_wdl": [
+      0.007206308660441629,
+      0.020892912157224768,
+      0.9719007791823336
+    ],
+    "outcome_wdl": [
+      0.0009204399006839932,
+      0.015000927832656252,
+      0.9840786322666597
+    ],
+    "duration_params": [
+      4.58203125,
+      -0.4443359375
+    ],
+    "moves": [
+      {
+        "uci": "h5g5",
+        "san": "Kg5",
+        "index": 7,
+        "policy": 0.3084157793122147,
+        "logit": 1.578125,
+        "action_wdl": [
+          0.003717916928272765,
+          0.01453333237763385,
+          0.9817487506940935
+        ],
+        "action_q": -0.9780308337658208
+      },
+      {
+        "uci": "h5g4",
+        "san": "Kg4",
+        "index": 8,
+        "policy": 0.30541856512196264,
+        "logit": 1.568359375,
+        "action_wdl": [
+          0.004823007732858412,
+          0.01870641464932525,
+          0.9764705776178163
+        ],
+        "action_q": -0.9716475698849579
+      },
+      {
+        "uci": "h5h4",
+        "san": "Kh4",
+        "index": 9,
+        "policy": 0.13161569904947212,
+        "logit": 0.7265625,
+        "action_wdl": [
+          0.003066658836519749,
+          0.010568663293380486,
+          0.9863646778700996
+        ],
+        "action_q": -0.9832980190335798
+      },
+      {
+        "uci": "c4c3",
+        "san": "c3",
+        "index": 10,
+        "policy": 0.0741005840983862,
+        "logit": 0.152099609375,
+        "action_wdl": [
+          0.0012956702198107834,
+          0.002891462647586799,
+          0.9958128671326024
+        ],
+        "action_q": -0.9945171969127916
+      },
+      {
+        "uci": "d5f7",
+        "san": "Bf7",
+        "index": 5,
+        "policy": 0.06862392180322052,
+        "logit": 0.0753173828125,
+        "action_wdl": [
+          0.000789766738667891,
+          0.0023532073569659325,
+          0.9968570259043661
+        ],
+        "action_q": -0.9960672591656982
+      },
+      {
+        "uci": "d5g8",
+        "san": "Bg8",
+        "index": 4,
+        "policy": 0.05907813647941412,
+        "logit": -0.074462890625,
+        "action_wdl": [
+          0.0007626524893637591,
+          0.00215990193576296,
+          0.9970774455748733
+        ],
+        "action_q": -0.9963147930855095
+      },
+      {
+        "uci": "h7h6",
+        "san": "Rxh6",
+        "index": 2,
+        "policy": 0.01585802003049161,
+        "logit": -1.3896484375,
+        "action_wdl": [
+          0.0015558866193517392,
+          0.0032049670399114357,
+          0.9952391463407368
+        ],
+        "action_q": -0.9936832597213852
+      },
+      {
+        "uci": "h7g7",
+        "san": "Rxg7",
+        "index": 1,
+        "policy": 0.011223078549279397,
+        "logit": -1.7353515625,
+        "action_wdl": [
+          0.0032084812703818506,
+          0.006281901370705211,
+          0.990509617358913
+        ],
+        "action_q": -0.9873011360885311
+      },
+      {
+        "uci": "c6c5",
+        "san": "c5",
+        "index": 3,
+        "policy": 0.009017996960631472,
+        "logit": -1.9541015625,
+        "action_wdl": [
+          0.00042663541166799095,
+          0.0013400484669535858,
+          0.9982333161213783
+        ],
+        "action_q": -0.9978066807097103
+      },
+      {
+        "uci": "h7h8",
+        "san": "Rh8",
+        "index": 0,
+        "policy": 0.00836475403937781,
+        "logit": -2.029296875,
+        "action_wdl": [
+          0.0007470986833331483,
+          0.001298456665242588,
+          0.9979544446514242
+        ],
+        "action_q": -0.9972073459680911
+      },
+      {
+        "uci": "d5e6",
+        "san": "Be6",
+        "index": 6,
+        "policy": 0.008283464555549513,
+        "logit": -2.0390625,
+        "action_wdl": [
+          0.0007795667155512015,
+          0.0016927824894173806,
+          0.9975276507950315
+        ],
+        "action_q": -0.9967480840794802
+      }
+    ],
+    "perspective": "side to move",
+    "duration_used_by_engine": false,
+    "outcome_used_by_engine": false
+  },
+  "native": {
+    "state": [
+      0.007207810878753662,
+      0.02091684751212597,
+      0.9718753695487976
+    ],
+    "policy": [
+      0.00838055182248354,
+      0.011225764639675617,
+      0.01585129089653492,
+      0.008999889716506004,
+      0.05902324616909027,
+      0.06871107220649719,
+      0.00827054213732481,
+      0.30834266543388367,
+      0.3054850101470947,
+      0.13161642849445343,
+      0.07409349828958511
+    ],
+    "action": [
+      [
+        0.0007503032684326172,
+        0.0013075347524136305,
+        0.9979421496391296
+      ],
+      [
+        0.003197282552719116,
+        0.006288699805736542,
+        0.9905140399932861
+      ],
+      [
+        0.001567542552947998,
+        0.0032350027468055487,
+        0.9951974749565125
+      ],
+      [
+        0.0004258453845977783,
+        0.0013376051792874932,
+        0.9982365369796753
+      ],
+      [
+        0.0007621943950653076,
+        0.0021573740523308516,
+        0.9970804452896118
+      ],
+      [
+        0.0007876753807067871,
+        0.002348709385842085,
+        0.996863603591919
+      ],
+      [
+        0.000771254301071167,
+        0.0016774056712165475,
+        0.9975513219833374
+      ],
+      [
+        0.00371745228767395,
+        0.014571616426110268,
+        0.9817109107971191
+      ],
+      [
+        0.0048257410526275635,
+        0.018766162917017937,
+        0.9764081239700317
+      ],
+      [
+        0.0030554234981536865,
+        0.010554755106568336,
+        0.9863898754119873
+      ],
+      [
+        0.001290440559387207,
+        0.002883407985791564,
+        0.9958261251449585
+      ]
+    ]
+  },
+  "errors": {
+    "policy": 8.715040327667012e-05,
+    "state": 2.5409633536033205e-05,
+    "action": 6.245364778456608e-05
+  },
+  "original_error": 0.0,
+  "rank_disagreement": false,
+  "action_order": [
+    {
+      "uci": "h7h8",
+      "san": "Rh8"
+    },
+    {
+      "uci": "h7g7",
+      "san": "Rxg7"
+    },
+    {
+      "uci": "h7h6",
+      "san": "Rxh6"
+    },
+    {
+      "uci": "c6c5",
+      "san": "c5"
+    },
+    {
+      "uci": "d5g8",
+      "san": "Bg8"
+    },
+    {
+      "uci": "d5f7",
+      "san": "Bf7"
+    },
+    {
+      "uci": "d5e6",
+      "san": "Be6"
+    },
+    {
+      "uci": "h5g5",
+      "san": "Kg5"
+    },
+    {
+      "uci": "h5g4",
+      "san": "Kg4"
+    },
+    {
+      "uci": "h5h4",
+      "san": "Kh4"
+    },
+    {
+      "uci": "c4c3",
+      "san": "c3"
+    }
+  ],
+  "full_trace": true,
+  "random_features": false,
+  "trace_keys": {
+    "embedded": [
+      64,
+      384
+    ],
+    "block.0.norm1": [
+      64,
+      384
+    ],
+    "block.0.query": [
+      12,
+      64,
+      32
+    ],
+    "block.0.key": [
+      12,
+      64,
+      32
+    ],
+    "block.0.value": [
+      12,
+      64,
+      32
+    ],
+    "block.0.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.0.compressed": [
+      64,
+      8
+    ],
+    "block.0.gate_hidden": [
+      128
+    ],
+    "block.0.gates": [
+      12,
+      16
+    ],
+    "block.0.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.0.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.0.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.0.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.0.attention_update": [
+      64,
+      384
+    ],
+    "block.0.after_attention": [
+      64,
+      384
+    ],
+    "block.0.ff_pre": [
+      64,
+      576
+    ],
+    "block.0.ff_act": [
+      64,
+      576
+    ],
+    "block.0.ff_update": [
+      64,
+      384
+    ],
+    "block.0.residual": [
+      64,
+      384
+    ],
+    "block.1.norm1": [
+      64,
+      384
+    ],
+    "block.1.query": [
+      12,
+      64,
+      32
+    ],
+    "block.1.key": [
+      12,
+      64,
+      32
+    ],
+    "block.1.value": [
+      12,
+      64,
+      32
+    ],
+    "block.1.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.1.compressed": [
+      64,
+      8
+    ],
+    "block.1.gate_hidden": [
+      128
+    ],
+    "block.1.gates": [
+      12,
+      16
+    ],
+    "block.1.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.1.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.1.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.1.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.1.attention_update": [
+      64,
+      384
+    ],
+    "block.1.after_attention": [
+      64,
+      384
+    ],
+    "block.1.ff_pre": [
+      64,
+      576
+    ],
+    "block.1.ff_act": [
+      64,
+      576
+    ],
+    "block.1.ff_update": [
+      64,
+      384
+    ],
+    "block.1.residual": [
+      64,
+      384
+    ],
+    "block.2.norm1": [
+      64,
+      384
+    ],
+    "block.2.query": [
+      12,
+      64,
+      32
+    ],
+    "block.2.key": [
+      12,
+      64,
+      32
+    ],
+    "block.2.value": [
+      12,
+      64,
+      32
+    ],
+    "block.2.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.2.compressed": [
+      64,
+      8
+    ],
+    "block.2.gate_hidden": [
+      128
+    ],
+    "block.2.gates": [
+      12,
+      16
+    ],
+    "block.2.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.2.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.2.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.2.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.2.attention_update": [
+      64,
+      384
+    ],
+    "block.2.after_attention": [
+      64,
+      384
+    ],
+    "block.2.ff_pre": [
+      64,
+      576
+    ],
+    "block.2.ff_act": [
+      64,
+      576
+    ],
+    "block.2.ff_update": [
+      64,
+      384
+    ],
+    "block.2.residual": [
+      64,
+      384
+    ],
+    "block.3.norm1": [
+      64,
+      384
+    ],
+    "block.3.query": [
+      12,
+      64,
+      32
+    ],
+    "block.3.key": [
+      12,
+      64,
+      32
+    ],
+    "block.3.value": [
+      12,
+      64,
+      32
+    ],
+    "block.3.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.3.compressed": [
+      64,
+      8
+    ],
+    "block.3.gate_hidden": [
+      128
+    ],
+    "block.3.gates": [
+      12,
+      16
+    ],
+    "block.3.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.3.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.3.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.3.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.3.attention_update": [
+      64,
+      384
+    ],
+    "block.3.after_attention": [
+      64,
+      384
+    ],
+    "block.3.ff_pre": [
+      64,
+      576
+    ],
+    "block.3.ff_act": [
+      64,
+      576
+    ],
+    "block.3.ff_update": [
+      64,
+      384
+    ],
+    "block.3.residual": [
+      64,
+      384
+    ],
+    "block.4.norm1": [
+      64,
+      384
+    ],
+    "block.4.query": [
+      12,
+      64,
+      32
+    ],
+    "block.4.key": [
+      12,
+      64,
+      32
+    ],
+    "block.4.value": [
+      12,
+      64,
+      32
+    ],
+    "block.4.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.4.compressed": [
+      64,
+      8
+    ],
+    "block.4.gate_hidden": [
+      128
+    ],
+    "block.4.gates": [
+      12,
+      16
+    ],
+    "block.4.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.4.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.4.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.4.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.4.attention_update": [
+      64,
+      384
+    ],
+    "block.4.after_attention": [
+      64,
+      384
+    ],
+    "block.4.ff_pre": [
+      64,
+      576
+    ],
+    "block.4.ff_act": [
+      64,
+      576
+    ],
+    "block.4.ff_update": [
+      64,
+      384
+    ],
+    "block.4.residual": [
+      64,
+      384
+    ],
+    "block.5.norm1": [
+      64,
+      384
+    ],
+    "block.5.query": [
+      12,
+      64,
+      32
+    ],
+    "block.5.key": [
+      12,
+      64,
+      32
+    ],
+    "block.5.value": [
+      12,
+      64,
+      32
+    ],
+    "block.5.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.5.compressed": [
+      64,
+      8
+    ],
+    "block.5.gate_hidden": [
+      128
+    ],
+    "block.5.gates": [
+      12,
+      16
+    ],
+    "block.5.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.5.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.5.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.5.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.5.attention_update": [
+      64,
+      384
+    ],
+    "block.5.after_attention": [
+      64,
+      384
+    ],
+    "block.5.ff_pre": [
+      64,
+      576
+    ],
+    "block.5.ff_act": [
+      64,
+      576
+    ],
+    "block.5.ff_update": [
+      64,
+      384
+    ],
+    "block.5.residual": [
+      64,
+      384
+    ],
+    "block.6.norm1": [
+      64,
+      384
+    ],
+    "block.6.query": [
+      12,
+      64,
+      32
+    ],
+    "block.6.key": [
+      12,
+      64,
+      32
+    ],
+    "block.6.value": [
+      12,
+      64,
+      32
+    ],
+    "block.6.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.6.compressed": [
+      64,
+      8
+    ],
+    "block.6.gate_hidden": [
+      128
+    ],
+    "block.6.gates": [
+      12,
+      16
+    ],
+    "block.6.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.6.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.6.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.6.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.6.attention_update": [
+      64,
+      384
+    ],
+    "block.6.after_attention": [
+      64,
+      384
+    ],
+    "block.6.ff_pre": [
+      64,
+      576
+    ],
+    "block.6.ff_act": [
+      64,
+      576
+    ],
+    "block.6.ff_update": [
+      64,
+      384
+    ],
+    "block.6.residual": [
+      64,
+      384
+    ],
+    "block.7.norm1": [
+      64,
+      384
+    ],
+    "block.7.query": [
+      12,
+      64,
+      32
+    ],
+    "block.7.key": [
+      12,
+      64,
+      32
+    ],
+    "block.7.value": [
+      12,
+      64,
+      32
+    ],
+    "block.7.static_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.7.compressed": [
+      64,
+      8
+    ],
+    "block.7.gate_hidden": [
+      128
+    ],
+    "block.7.gates": [
+      12,
+      16
+    ],
+    "block.7.adaptive_bias": [
+      12,
+      64,
+      64
+    ],
+    "block.7.content_scores": [
+      12,
+      64,
+      64
+    ],
+    "block.7.attention": [
+      12,
+      64,
+      64
+    ],
+    "block.7.head_output": [
+      12,
+      64,
+      32
+    ],
+    "block.7.attention_update": [
+      64,
+      384
+    ],
+    "block.7.after_attention": [
+      64,
+      384
+    ],
+    "block.7.ff_pre": [
+      64,
+      576
+    ],
+    "block.7.ff_act": [
+      64,
+      576
+    ],
+    "block.7.ff_update": [
+      64,
+      384
+    ],
+    "block.7.residual": [
+      64,
+      384
+    ],
+    "normalized": [
+      64,
+      384
+    ],
+    "context_hidden": [
+      128
+    ],
+    "decoder.source": [
+      256,
+      64
+    ],
+    "decoder.destination": [
+      256,
+      64
+    ],
+    "decoder.interaction": [
+      256,
+      64
+    ],
+    "decoder.context": [
+      1,
+      64
+    ],
+    "decoder.promotion": [
+      256,
+      64
+    ],
+    "decoder.castle": [
+      256,
+      64
+    ],
+    "decoder.combined": [
+      256,
+      64
+    ],
+    "move_hidden": [
+      256,
+      64
+    ]
+  },
+  "seconds": 0.26873854599944025
+}

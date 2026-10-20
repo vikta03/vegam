@@ -1,0 +1,280 @@
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "0-1"]
+[TimeControl "5+0.05"]
+[OpeningSource "p00"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O d6 6. c3 Bb6 7. Nbd2 Ne7 8. a4 c6 9. d4 Ng6 10. b4 O-O 11. a5 Bc7 12. dxe5 dxe5 13. Qc2 h6 14. Re1 Qe7 15. Nf1 Be6 16. Bxe6 Qxe6 17. c4 b6 18. Be3 Rfd8 19. h3 Nh5 20. Ng3 Nxg3 21. fxg3 Nf8 22. Nh4 Qe8 23. Nf5 Ne6 24. Qe2 bxa5 25. bxa5 Kh7 26. Kh2 c5 27. Qg4 f6 28. Qh4 Rd7 29. Bxh6 gxh6 30. Qxh6+ Kg8 31. Qxf6 Bd8 32. Qxe5 Bc7 33. Qf6 Bd8 34. Qb2 Nd4 35. Nh6+ Kh8 36. e5 Qg6 37. Ng4 Rh7 38. Rf1 Bc7 39. Kg1 Rb8 40. Qf2 Rh5 41. Rae1 Bxa5 42. Rd1 Bc7 43. Qe3 Rb3 44. Rf8+ Kg7 45. Qf2 Rb1 46. Rxb1 Qxb1+ 47. Kh2 Rf5 48. Rxf5 Qxf5 49. Qe3 Qe6 50. Qa3 Bb6 51. Qc1 Nc6 52. Qg5+ Kf7 53. Qh5+ Ke7 54. Qh8 Ba5 55. Qg7+ Kd8 56. Qf8+ Kc7 57. Nf6 Kb7 58. Ne4 Bb4 59. Nxc5+ Bxc5 60. Qxc5 Qxe5 61. Qa3 a5 62. h4 Kc7 63. Kh3 Qd6 64. Qa1 Qd4 65. Qa4 Qg1 66. g4 Qh1+ 67. Kg3 Qe1+ 68. Kh3 Qb4 69. Qa1 a4 70. h5 a3 71. h6 Qb2 72. Qxb2 axb2 73. h7 b1=Q 74. h8=Q Qh1+ 75. Kg3 Qxh8 76. g5 Qe5+ 77. Kf3 Nd4+ 78. Kg4 Qe4+ 79. Kg3 Nf5+ 80. Kh2 Qh4+ 81. Kg1 Qe1+ 82. Kh2 Qg3+ 83. Kg1 Ne3 84. Kh1 Qxg2# 0-1
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p00"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O d6 6. c3 Bb6 7. Nbd2 Ne7 8. a4 c6 9. d4 Ng6 10. b4 O-O 11. a5 Bc7 12. dxe5 dxe5 13. Qc2 h6 14. Re1 Qe7 15. Nf1 Be6 16. Bxe6 Qxe6 17. c4 Rfd8 18. Ng3 Nf4 19. Bxf4 exf4 20. Nf5 Be5 21. Rad1 Rxd1 22. Rxd1 Bc7 23. e5 Ng4 24. N5d4 Qe8 25. e6 fxe6 26. Re1 e5 27. Qf5 Qf7 28. Qxg4 exd4 29. Nxd4 Re8 30. Rxe8+ Qxe8 31. g3 h5 32. Qf5 g6 33. Qd3 Kf7 34. Nf3 Qd8 35. Qe4 Qf6 36. Kg2 a6 37. Qd3 Qf5 38. Qd4 g5 39. h4 gxh4 40. Nxh4 Qg4 41. Qd3 fxg3 42. fxg3 Ke6 43. c5 Qg5 44. Qe4+ Qe5 45. Qg6+ Kd5 46. Qf7+ Ke4 47. Qc4+ Qd4 48. Qe2+ Kd5 49. Qa2+ Qc4 50. Qd2+ Ke6 51. Qh6+ Kd7 52. Qxh5 Qxb4 53. Qf5+ Kd8 54. Qf8+ Kd7 55. Qf5+ Kd8 56. Qf8+ Kd7 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p03"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. d4 g6 2. Nf3 Bg7 3. Nbd2 d5 4. e3 Nf6 5. b4 O-O 6. c4 Bg4 7. Bb2 e6 8. Be2 Nbd7 9. a4 c6 10. O-O a6 11. h3 Bxf3 12. Bxf3 Re8 13. Qb3 Nb6 14. c5 Nbd7 15. b5 e5 16. bxc6 bxc6 17. a5 Rb8 18. Qa3 exd4 19. Bxd4 Nf8 20. Rab1 Rxb1 21. Rxb1 Ne6 22. Be5 Ne4 23. Nxe4 Bxe5 24. Nd6 Rf8 25. Rb6 d4 26. Rxa6 dxe3 27. Qxe3 Bd4 28. Qe1 Nxc5 29. Rxc6 Nd3 30. Qd2 Qe7 31. Ne4 Rd8 32. a6 Qa3 33. Qg5 Rf8 34. Qh4 Kg7 35. Be2 Qa4 36. Bxd3 Qxc6 37. Ng5 Rd8 38. Qxh7+ Kf6 39. Ne4+ Ke7 40. Qh4+ Ke8 41. Qf4 Kf8 42. Ng5 Rd7 43. Nxf7 Bxf2+ 44. Qxf2 Rxf7 45. Qd4 Rd7 46. Qh8+ Kf7 47. Qh7+ Kf8 48. Qh6+ Kf7 49. Qe3 Qf6 50. Bf1 Kg7 51. Be2 Re7 52. Qd3 Qa1+ 53. Bf1 Rf7 54. Qc4 Qe1 55. Qe2 Qa1 56. g3 Qc3 57. Kh2 Qd4 58. Kg2 Qd5+ 59. Kh2 Qd4 60. Kg2 Qd5+ 61. Kg1 Qc5+ 62. Kg2 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p03"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. d4 g6 2. Nf3 Bg7 3. Nbd2 d5 4. e3 Nf6 5. b4 O-O 6. c4 Bg4 7. Bb2 e6 8. Be2 Nbd7 9. O-O c6 10. a4 a6 11. h3 Bxf3 12. Bxf3 Re8 13. Qb3 Nb6 14. c5 Nbd7 15. b5 e5 16. bxc6 bxc6 17. a5 Rb8 18. Qa3 exd4 19. Bxd4 Nf8 20. Rab1 Rxb1 21. Rxb1 Ne6 22. Nb3 Ne4 23. Bxg7 Kxg7 24. Qb2+ Qf6 25. Qxf6+ Kxf6 26. Nd4 Nd2 27. Rb6 Nxd4 28. exd4 Re1+ 29. Kh2 Nf1+ 30. Kg1 Nd2+ 31. Kh2 Nf1+ 32. Kg1 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "5"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p04"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 g6 4. O-O Bg7 5. Re1 d6 6. c3 Nf6 7. Bf1 O-O 8. h3 h6 9. d4 e6 10. a4 b6 11. Bf4 Bb7 12. dxc5 e5 13. Bh2 bxc5 14. Na3 Qe7 15. a5 Rab8 16. a6 Ba8 17. Nc4 Rfd8 18. Qc2 Qc7 19. Nfd2 Ne7 20. f4 exf4 21. Bxf4 Nh5 22. Bh2 Nc6 23. Be2 Nf6 24. Nf3 Ne8 25. Bf1 Ne5 26. Qf2 Qe7 27. Bg3 Kh7 28. Rad1 f6 29. Bh4 h5 30. g4 hxg4 31. hxg4 Bh6 32. Ncxe5 dxe5 33. g5 fxg5 34. Bg3 Rxd1 35. Rxd1 Nf6 36. Nxe5 g4 37. Nc6 Bxc6 38. Bxb8 Nxe4 39. Re1 Qd7 40. Rxe4 Bxe4 41. Qxc5 Qf5 42. Qxa7+ Kg8 43. Qf2 Bf3 44. Qd4 Bd5 45. Qd3 Be4 46. Qd8+ Kh7 47. Qc7+ Kg8 48. Bc4+ Bd5 49. Qd8+ Kh7 50. Qe7+ Kg8 51. Bxd5+ Qxd5 52. Qe2 Qc5+ 53. Kh2 Qh5+ 54. Kg3 Qh3+ 55. Kf2 Qh4+ 56. Bg3 Qf6+ 57. Kg1 Qc6 58. a7 Bf8 59. b4 Kh7 60. Qg2 Qxc3 61. a8=Q Qc1+ 62. Qf1 Qe3+ 63. Qf2 Qc1+ 64. Kg2 Bg7 65. Qe4 Qb2 66. Qxb2 Bxb2 67. Qe7+ Kg8 68. Bd6 Bg7 69. Kg3 Kh8 70. Kxg4 Kg8 71. Kg5 Bd4 72. Kxg6 Bf6 73. Qf8# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "6"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p04"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 g6 4. O-O Bg7 5. Re1 d6 6. c3 Nf6 7. Bf1 O-O 8. h3 h6 9. d4 e6 10. a4 b6 11. Bf4 Bb7 12. dxc5 e5 13. Bh2 bxc5 14. Na3 Qe7 15. a5 Rab8 16. a6 Ba8 17. Nc4 Rfd8 18. Qc2 Qc7 19. Nfd2 Ne7 20. f4 exf4 21. Bxf4 Nh5 22. Bh2 Nc6 23. Be2 Nf6 24. Nf3 Ne8 25. Bf1 Ne5 26. Qf2 Qe7 27. Bg3 Nxf3+ 28. gxf3 Bc6 29. Na5 Rdc8 30. Rad1 Bb5 31. Bxb5 Rxb5 32. Nc4 Rc6 33. f4 Rxa6 34. f5 Qg5 35. Kh2 Ra4 36. fxg6 Qxg6 37. Nxd6 Nxd6 38. Rxd6 Qh5 39. Rd5 Qg6 40. e5 Ra2 41. Re2 Rb6 42. Rdd2 Ra1 43. Qf3 Re6 44. h4 h5 45. Rg2 Qb1 46. Rd8+ Kh7 47. Rf2 Qg1+ 48. Kh3 Qh1+ 49. Qxh1 Rxh1+ 50. Kg2 Rb1 51. Rxf7 Kg6 52. Rf2 Bxe5 53. Re2 Kf6 54. Rh8 Re7 55. Rh6+ Kg7 56. Rxh5 Bf6 57. Rf2 Rb7 58. Rhf5 Be7 59. Rf7+ Kg8 60. Be5 R1xb2 61. Rg7+ Kh8 62. Rxe7+ Kg8 63. Rxb7 Rxb7 64. Kf3 Rf7+ 65. Bf4 a5 66. h5 a4 67. Ra2 Ra7 68. Kg4 a3 69. h6 Kh7 70. Kh5 Ra6 71. c4 Ra7 72. Kg5 Ra6 73. Kf5 Ra4 74. Rg2 Ra7 75. Be5 a2 76. Rg7+ Rxg7 77. hxg7 Kg8 78. Ke6 Kh7 79. Kf7 Kh6 80. g8=Q Kh5 81. Bf6 a1=Q 82. Qg5# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "7"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p05"]
+[BookPlyCount "16"]
+[Termination "insufficient_material"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Be3 Nge7 7. Nb3 d6 8. h4 Qc7 9. Qd2 h5 10. Be2 Ng8 11. a4 b6 12. O-O-O Nf6 13. Bg5 Bb7 14. Kb1 Be7 15. f4 O-O-O 16. Bf3 Kb8 17. Qe2 Rhe8 18. Rhe1 g6 19. Nd4 Nb4 20. f5 e5 21. Nb3 gxf5 22. exf5 Ng4 23. Bxe7 Qxe7 24. a5 bxa5 25. Nxa5 d5 26. Qd2 Ba8 27. Na4 d4 28. Bxa8 Kxa8 29. c3 Nd5 30. cxd4 Qd7 31. Nc5 Qxf5+ 32. Ka1 exd4 33. Nc6 Rxe1 34. Rxe1 Rc8 35. Nxd4 Qf4 36. Qa5 Qc7 37. Qxa6+ Qa7 38. Qxa7+ Kxa7 39. Ne4 Nge3 40. g3 Rg8 41. Kb1 Rg4 42. Nb5+ Kb6 43. Nbc3 Nxc3+ 44. Nxc3 Nf5 45. Nd5+ Kb7 46. Rf1 Nxg3 47. Rf4 Kc6 48. Rxg4 hxg4 49. Nf6 Nf5 50. Nxg4 Nxh4 51. Kc1 Kd5 52. Nh6 f5 53. Nxf5 Nxf5 54. b3 Nd4 55. Kd1 Nxb3 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "8"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p05"]
+[BookPlyCount "16"]
+[Termination "insufficient_material"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Be3 Nge7 7. Nb3 d6 8. h4 Qc7 9. Qd2 h5 10. Be2 Ng8 11. a4 b6 12. O-O-O Nf6 13. Bg5 Bb7 14. Kb1 Be7 15. f4 O-O-O 16. Bf3 Kb8 17. Qe2 Rhe8 18. Rhe1 g6 19. Nd4 Nb4 20. f5 e5 21. Nb3 gxf5 22. exf5 Ng4 23. Bxe7 Qxe7 24. a5 bxa5 25. Nxa5 d5 26. Qd2 Ba8 27. Na4 d4 28. Bxa8 Kxa8 29. c3 Nd5 30. cxd4 Qd7 31. Nc5 Qxf5+ 32. Ka1 exd4 33. Nc6 Rxe1 34. Rxe1 Rc8 35. Nxd4 Qf4 36. Qa5 Qc7 37. Qxa6+ Qa7 38. Qxa7+ Kxa7 39. Ne4 Nge3 40. g3 Rg8 41. Kb1 Rg4 42. Nb5+ Kb6 43. Nbc3 Nxc3+ 44. Nxc3 Nf5 45. Nd5+ Kb7 46. Rf1 Nxg3 47. Rf4 Kc6 48. Rxg4 hxg4 49. Nf6 Nf5 50. Nxg4 Nxh4 51. Kc1 Kd5 52. b4 Kc4 53. b5 Kxb5 54. Ne3 Kc5 55. Kd2 Ng2 56. Nxg2 Kd5 57. Ne3+ Ke5 58. Kd3 f6 59. Nc4+ Ke6 60. Ke4 Kd7 61. Kf5 Kc7 62. Kxf6 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "9"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p08"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 f5 5. d3 fxe4 6. dxe4 Nf6 7. O-O d6 8. Re1 Be7 9. Nc3 O-O 10. Nd5 Bg4 11. h3 Bh5 12. c3 Kh8 13. Nxf6 Rxf6 14. g4 Be8 15. Be3 Rf8 16. Qe2 Bg6 17. Bc2 Qe8 18. Rf1 Nd8 19. Ne1 Ne6 20. Ng2 Bg5 21. f3 Bxe3+ 22. Qxe3 Nf4 23. Nxf4 Rxf4 24. c4 Qe7 25. Bd3 Raf8 26. Kg2 a5 27. b3 h5 28. Be2 b6 29. a3 Qg5 30. Qc3 Be8 31. b4 Bc6 32. bxa5 bxa5 33. Rad1 Qg6 34. Qe3 Qe6 35. Qa7 Qf7 36. Qxa5 Kh7 37. Qc3 Qg6 38. Qe3 Qg5 39. Rd3 Qh4 40. Rdd1 Qg5 41. Rd3 Qh4 42. Rdd1 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "10"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p08"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 f5 5. d3 fxe4 6. dxe4 Nf6 7. O-O d6 8. Re1 Be7 9. Nc3 O-O 10. Nd5 Bg4 11. h3 Bh5 12. c3 Kh8 13. Nxf6 Bxf6 14. Bb3 Be7 15. g4 Bf7 16. Bd5 Qe8 17. Be3 Nd8 18. Kg2 c6 19. Bb3 Bxb3 20. Qxb3 Qg6 21. Nd2 Rb8 22. Ba7 Rc8 23. Be3 Rc7 24. Bb6 Rd7 25. Bxd8 Bxd8 26. Re2 h5 27. f3 Bg5 28. c4 Rdf7 29. Rf1 Qh6 30. Qd3 b5 31. b3 Rf6 32. cxb5 axb5 33. a4 Bf4 34. axb5 cxb5 35. Rh1 Rc8 36. Rd1 Kh7 37. Nf1 hxg4 38. fxg4 b4 39. Qb5 Bg5 40. Rd3 Bh4 41. Qxb4 Rc1 42. Nh2 Rf8 43. Qxd6 Qxd6 44. Rxd6 Rc3 45. Nf1 Rxb3 46. Ne3 g6 47. Rd5 Re8 48. Nc4 Rg3+ 49. Kh2 Rc3 50. Rd7+ Kg8 51. Ne3 Rf8 52. Nd5 Ra3 53. Ne7+ Bxe7 54. Rxe7 Rff3 55. Rc2 Rxh3+ 56. Kg1 Rhg3+ 57. Kf1 Rac3 58. Ra2 Ra3 59. Rd2 Kf8 60. Rb7 Ke8 61. Rc2 Rac3 62. Ra2 Ra3 63. Rh2 Rgf3+ 64. Kg1 Rg3+ 65. Kf1 Rgf3+ 66. Kg1 Rg3+ 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "11"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p09"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 c5 8. cxd5 Qxd5 9. e3 O-O 10. Be2 cxd4 11. cxd4 Qa5+ 12. Qd2 Nc6 13. Qxa5 Nxa5 14. h4 Bf5 15. h5 Rfc8 16. h6 Bf8 17. Nd2 Rc2 18. e4 Bd7 19. O-O Rac8 20. Rfb1 f6 21. Bd1 R2c3 22. Nb3 Nxb3 23. Bxb3+ e6 24. d5 Kf7 25. dxe6+ Bxe6 26. Bxe6+ Kxe6 27. Rxb7 g5 28. Be3 R8c7 29. Rab1 Bxh6 30. Bxa7 Rxb7 31. Rxb7 Bf8 32. Rb6+ Kf7 33. a4 Rc7 34. Ra6 Rc4 35. a5 Rxe4 36. Rc6 Ra4 37. a6 f5 38. g3 Bg7 39. Be3 f4 40. gxf4 gxf4 41. Bc5 Bd4 42. Bxd4 Rxd4 43. Kg2 Ra4 44. Kf3 h5 45. Rh6 Kg7 46. Rb6 Kf7 47. Rh6 Kg7 48. Rb6 Kf7 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "12"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p09"]
+[BookPlyCount "16"]
+[Termination "insufficient_material"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5 Ne4 6. Bf4 Nxc3 7. bxc3 c5 8. cxd5 Qxd5 9. e3 O-O 10. Be2 cxd4 11. cxd4 Qa5+ 12. Qd2 Nc6 13. Qxa5 Nxa5 14. h4 Bf5 15. h5 Rfc8 16. h6 Bf8 17. Nd2 Rc2 18. e4 Bd7 19. O-O Rac8 20. Rfb1 f6 21. Bd1 R2c3 22. Nb3 Nxb3 23. Bxb3+ e6 24. d5 Kf7 25. dxe6+ Bxe6 26. Bxe6+ Kxe6 27. Rxb7 g5 28. Be3 R8c7 29. Rab1 Bxh6 30. Rxa7 Rxa7 31. Bxa7 Bf8 32. a4 Ra3 33. Rb6+ Ke5 34. Ra6 Kxe4 35. Rxf6 Rxa4 36. Be3 Bg7 37. Rf7 Be5 38. g3 Bxg3 39. Re7+ Be5 40. Bxg5 Kf5 41. Be3 h5 42. Kg2 h4 43. Rf7+ Bf6 44. Kh3 Rc4 45. Bb6 Rc3+ 46. Kh2 Rd3 47. Be3 Ke5 48. Bc1 Ke6 49. Rf8 h3 50. Be3 Ba1 51. Kxh3 Bd4 52. Rd8 Bxe3 53. Rxd3 Bxf2 54. Kg4 Bg1 55. Rd6+ Ke7 56. Kf5 Kxd6 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "13"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p15"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8. Qxg7 Rg8 9. Qxh7 cxd4 10. Qd3 Qxe5+ 11. Ne2 dxc3 12. Qxc3 Nbc6 13. Qxe5 Nxe5 14. h4 f6 15. h5 Kf7 16. Nd4 Bd7 17. Rb1 b6 18. h6 Rg4 19. f4 Nc4 20. Rb3 Rh8 21. Rc3 e5 22. Nf3 exf4 23. Bxc4 dxc4 24. Rxc4 Rxg2 25. Rc7 Bc6 26. Nd4 Rxc2 27. Bxf4 Bxh1 28. Nxc2 Ke6 29. Nd4+ Kd5 30. Rd7+ Kc4 31. Rxe7 Kxd4 32. Rxa7 Be4 33. Ra6 b5 34. Rxf6 Ra8 35. Bd6 Rg8 36. Bf8 Rg1+ 37. Kf2 Rg2+ 38. Kf1 Rh2 39. Re6 Ke3 40. Bc5+ Kf3 41. Rf6+ Kg4 42. Ke1 Bf5 43. Be3 Ra2 44. Bc1 Rh2 45. Be3 Ra2 46. Bc1 Rh2 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "14"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p15"]
+[BookPlyCount "16"]
+[Termination "insufficient_material"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8. Qxg7 Rg8 9. Qxh7 cxd4 10. Qd3 Qxe5+ 11. Ne2 dxc3 12. Qxc3 Nbc6 13. Qxe5 Nxe5 14. h4 f6 15. h5 Bd7 16. Rb1 b6 17. Nd4 Kf7 18. h6 Rg4 19. f4 Nc4 20. Rb3 Rh8 21. Rc3 e5 22. Nf3 exf4 23. Bxc4 dxc4 24. Rxc4 Rxg2 25. Rc7 Bg4 26. Nd4 f3 27. Kf1 a5 28. Bf4 Ke8 29. Rb7 Bc8 30. Ra7 Bd7 31. Ra8+ Nc8 32. Rb8 Rg4 33. Be3 Kd8 34. Rb7 Nd6 35. Rxb6 Nc4 36. Rb8+ Bc8 37. Kf2 Nxe3 38. Kxe3 Re8+ 39. Kd3 f2 40. Rf1 Kc7 41. Rxc8+ Rxc8 42. Rxf2 Rg6 43. Rh2 Rh8 44. h7 Kd7 45. a4 Rg7 46. Rf2 Rf7 47. Rf5 Ke8 48. Rxa5 Rfxh7 49. Rb5 Kf7 50. a5 Kg6 51. Kc4 Ra8 52. Kb4 Rh1 53. c4 Rb1+ 54. Kc5 Ra1 55. Nc6 f5 56. Kb6 f4 57. c5 Kf5 58. Kb7 Rf8 59. Nd4+ Ke4 60. Nb3 Rf7+ 61. Kb6 Rd1 62. c6 f3 63. Nc5+ Kd5 64. c7 Rxc7 65. Kxc7 Kc4 66. Rb3 f2 67. Rf3 f1=R 68. Rxf1 Rxf1 69. Nd7 Kb5 70. Ne5 Rf7+ 71. Nxf7 Kxa5 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "15"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p16"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 g6 4. O-O Bg7 5. d4 Nf6 6. c4 O-O 7. d5 c6 8. Nc3 cxd5 9. cxd5 b5 10. Qb3 Qa5 11. d6 b4 12. dxe7 Re8 13. Bf4 Nc6 14. Na4 Nxe7 15. a3 Ned5 16. Bd2 Ne4 17. Rfd1 Qb5 18. Be1 Bc6 19. axb4 a5 20. Nd4 Bxd4 21. Rxd4 Nxb4 22. Bxe4 Rxe4 23. Nc3 Qe5 24. Rxe4 Bxe4 25. Nxe4 Qxe4 26. Bc3 Nc6 27. Qb7 Rd8 28. Bf6 Re8 29. Qxd7 Qe6 30. Rd1 Qxe2 31. Rc1 Nb8 32. Qd5 Qa6 33. Be5 Nd7 34. Bc3 Nf6 35. Qd4 Re6 36. Qd8+ Kg7 37. Qxa5 Qxa5 38. Bxa5 Nd5 39. Rc5 Rd6 40. Kf1 Kf6 41. Ke2 Ke6 42. b4 Rd7 43. b5 Ra7 44. b6 Rb7 45. Kd3 Kd6 46. Kd4 Ne7 47. Kc4 Nc6 48. Kb5 Nd4+ 49. Ka6 Rb8 50. Rc7 Nc6 51. Bd2 Ra8+ 52. Kb5 Nd4+ 53. Kc4 Ne6 54. Rxf7 Kc6 55. Be3 Ra4+ 56. Kd3 Ra3+ 57. Ke4 Ra4+ 58. Ke5 Nd8 59. Rc7+ Kb5 60. b7 Nxb7 61. Rxb7+ Kc6 62. Rxh7 Ra5+ 63. Ke6 Rd5 64. Rc7+ Kxc7 65. Kxd5 Kd7 66. h4 Ke7 67. g4 Kf6 68. h5 gxh5 69. gxh5 Kf5 70. h6 Kg6 71. Ke6 Kh7 72. Kf7 Kh8 73. Kg6 Kg8 74. Bc5 Kh8 75. Be7 Kg8 76. h7+ Kh8 77. Bf6# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "16"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p16"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 g6 4. O-O Bg7 5. d4 Nf6 6. c4 O-O 7. d5 c6 8. Nc3 cxd5 9. cxd5 b5 10. Qb3 Qa5 11. d6 b4 12. dxe7 Re8 13. a4 Na6 14. Nb5 Nc5 15. Qc2 Nfe4 16. Be3 b3 17. Qd1 Bxb2 18. Rb1 Qxa4 19. Nd6 Bf6 20. Nxb7 Nxb7 21. Nd2 d5 22. Rxb3 Rxe7 23. Nxe4 dxe4 24. Qb1 Nd6 25. Rd1 Rd8 26. Rb4 Qe8 27. Bh3 Rc7 28. Rd5 a5 29. Bb6 Rb7 30. Bxa5 Rdb8 31. Rxb7 Rxb7 32. Qc2 Be5 33. Bc7 Qe7 34. Bxd6 Bxd6 35. Rxd6 Qxd6 36. Qc8+ Kg7 37. Qxb7 Qd1+ 38. Bf1 Qd4 39. e3 Qe5 40. Bc4 Qf5 41. Bd5 Qf3 42. Bxe4 Qd1+ 43. Kg2 Qd6 44. Bd5 Qf6 45. e4 g5 46. e5 Qf5 47. e6 Kf8 48. e7+ Kg7 49. e8=Q Kh6 50. Qf8+ Kh5 51. Bxf7+ Qxf7 52. Qbxf7+ Kg4 53. h3# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "17"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p18"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Bc5 5. c3 Nge7 6. d4 exd4 7. cxd4 Bb4+ 8. Bd2 Bxd2+ 9. Qxd2 d5 10. exd5 Nxd5 11. Bxc6+ bxc6 12. O-O O-O 13. Nc3 f6 14. h3 Be6 15. Rfe1 Bf7 16. Ne4 Re8 17. a3 a5 18. Nc5 Qd6 19. Rxe8+ Bxe8 20. Re1 Bf7 21. Nb7 Qf4 22. Qc2 Nb6 23. Re4 Qh6 24. Re7 Qf4 25. Re4 Qh6 26. Nh4 g6 27. Nf3 Bd5 28. Re3 Nc4 29. Re7 Qf4 30. Qc3 Nd6 31. Nxd6 cxd6 32. a4 h5 33. Qe1 Kf8 34. b4 axb4 35. Rh7 Bf7 36. Qxb4 Qc1+ 37. Kh2 Qf4+ 38. Kh1 Qc1+ 39. Ng1 Rd8 40. d5 Kg8 41. Rxf7 Kxf7 42. Qb7+ Kg8 43. dxc6 Re8 44. c7 d5 45. a5 d4 46. a6 d3 47. a7 d2 48. a8=Q Rxa8 49. Qxa8+ Kg7 50. c8=Q Qxc8 51. Qxc8 d1=Q 52. h4 Qd4 53. Qc7+ Kg8 54. Nh3 Qxh4 55. Qf4 Qxf4 56. Nxf4 Kf7 57. Kh2 h4 58. Kh3 g5 59. Ne2 Ke6 60. Kg4 Ke5 61. f4+ gxf4 62. Nxf4 Ke4 63. Ng6 f5+ 64. Kxh4 f4 65. Kg4 Ke3 66. Nxf4 Ke4 67. g3 Ke5 68. Kg5 Kd4 69. g4 Ke5 70. Nh5 Ke6 71. Kh6 Ke5 72. g5 Kd4 73. g6 Ke5 74. g7 Kd4 75. g8=Q Kc5 76. Nf4 Kd4 77. Qd5+ Kc3 78. Kg5 Kb4 79. Ne2 Ka4 80. Qb7 Ka3 81. Nc1 Ka4 82. Qb6 Ka3 83. Qb3# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "18"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1/2-1/2"]
+[TimeControl "5+0.05"]
+[OpeningSource "p18"]
+[BookPlyCount "16"]
+[Termination "threefold_repetition"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Bc5 5. c3 Nge7 6. d4 exd4 7. cxd4 Bb4+ 8. Bd2 Bxd2+ 9. Qxd2 d5 10. exd5 Nxd5 11. Bxc6+ bxc6 12. O-O O-O 13. Nc3 f6 14. h3 Be6 15. Rfe1 Bf7 16. Ne4 Re8 17. a3 a5 18. Nc5 Qd6 19. Rxe8+ Bxe8 20. Re1 Bf7 21. Nb7 Qf4 22. Qc2 Nb6 23. Re4 Qh6 24. Re7 Qf4 25. Qc5 Nd5 26. Re1 Rb8 27. Qa7 Rf8 28. Nc5 Qf5 29. Qxa5 Nf4 30. Qxc7 Bd5 31. Qd7 Qxd7 32. Nxd7 Rd8 33. Nc5 Bxf3 34. gxf3 Rxd4 35. h4 Kf7 36. b3 Rd2 37. a4 Ra2 38. Rd1 Ne6 39. Nb7 Ke7 40. Na5 Rc2 41. Nc4 Nc5 42. Ne3 Rb2 43. Nf5+ Kf7 44. Rc1 Nxb3 45. Rxc6 Ra2 46. Rc7+ Kg6 47. Ne7+ Kf7 48. Nf5+ Kg6 49. Ne7+ Kf7 1/2-1/2
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "19"]
+[White "dag-preview"]
+[Black "classic"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p20"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. cxd5 exd5 5. Bf4 c5 6. dxc5 Nf6 7. e3 O-O 8. Bd3 Bxc3+ 9. bxc3 Nbd7 10. Bd6 Re8 11. Ne2 Qa5 12. a4 Nxc5 13. Bb5 Ncd7 14. Bb4 Qc7 15. a5 a6 16. Ba4 Re5 17. O-O Nc5 18. Bc2 Bd7 19. Re1 Bf5 20. Bxf5 Rxf5 21. Qb1 Rxf2 22. Bxc5 Qxc5 23. Qxb7 Rc8 24. Kxf2 Ng4+ 25. Kf1 Nxe3+ 26. Kg1 Nc2+ 27. Kh1 Nxe1 28. Rxe1 Re8 29. Rf1 Qe7 30. Qxe7 Rxe7 31. Nd4 Rc7 32. Rb1 g6 33. Rb6 Rxc3 34. Kg1 Rc4 35. Nc6 d4 36. Rxa6 d3 37. Kf2 Re4 38. Ra8+ Kg7 39. Rd8 Re2+ 40. Kf3 Rc2 41. Nb4 Rc4 42. Nxd3 Ra4 43. Ra8 Ra3 44. Ke3 Ra4 45. a6 h5 46. Nc5 Rc4 47. Rc8 Rc3+ 48. Kd4 Ra3 49. Rc7 g5 50. a7 Ra5 51. Ke5 Kg6 52. Kd6 Ra2 53. Kc6 Ra1 54. Kb7 Rb1+ 55. Kc8 Ra1 56. Rc6+ Kf5 57. Ra6 Rxa6 58. Nxa6 Ke4 59. a8=Q+ Kd4 60. Qf3 g4 61. Qf4+ Kd3 62. Nb4+ Kc3 63. Kc7 h4 64. Kc6 Kb3 65. Kb5 Kc3 66. Qe3+ Kb2 67. Qd2+ Kb3 68. Qc2+ Ka3 69. Qa2# 1-0
+
+[Event "VEGAM-T classic versus DAG 20-game screen"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "20"]
+[White "classic"]
+[Black "dag-preview"]
+[Result "1-0"]
+[TimeControl "5+0.05"]
+[OpeningSource "p20"]
+[BookPlyCount "16"]
+[Termination "checkmate"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. cxd5 exd5 5. Bf4 c5 6. dxc5 Nf6 7. e3 O-O 8. Bd3 Bxc3+ 9. bxc3 Nbd7 10. Bd6 Re8 11. Ne2 Qa5 12. a4 Nxc5 13. Bb5 Ncd7 14. Bb4 Qc7 15. a5 a6 16. Ba4 Re5 17. O-O Nc5 18. Bc2 Bd7 19. Re1 Bf5 20. Bxf5 Rxf5 21. Qb1 Rxf2 22. Bxc5 Qxc5 23. Qxb7 Rc8 24. Kxf2 Ng4+ 25. Kf1 Nxe3+ 26. Kg1 Nc2+ 27. Kh1 Nxe1 28. Rxe1 Re8 29. Rf1 Qe7 30. Qxe7 Rxe7 31. Nd4 Rc7 32. Rb1 g6 33. Rb6 Rxc3 34. Kg1 Rc4 35. Nc6 d4 36. Rxa6 d3 37. Kf2 Re4 38. Ra8+ Kg7 39. Rd8 Re2+ 40. Kf3 Rc2 41. Nb4 Rc4 42. Nxd3 Ra4 43. Ra8 Ra3 44. Ke3 Ra4 45. a6 h5 46. Nc5 Ra5 47. Kd4 h4 48. a7 Ra2 49. Kd5 Rd2+ 50. Kc6 Ra2 51. h3 g5 52. Kc7 Ra1 53. Kd6 Rd1+ 54. Kc6 Ra1 55. Kc7 Ra3 56. Kb6 Ra1 57. Rd8 Rb1+ 58. Kc6 Ra1 59. a8=Q Rxa8 60. Rxa8 Kf6 61. Kd6 Kf5 62. Ra4 f6 63. Ke7 Ke5 64. Nd7+ Kd5 65. Kxf6 Kd6 66. Rd4+ Kc6 67. Ke6 Kb5 68. Kd5 g4 69. Rxg4 Ka6 70. Kc6 Ka5 71. Nb6 Ka6 72. Ra4# 1-0
+

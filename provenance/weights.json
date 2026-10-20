@@ -1,0 +1,11 @@
+{
+  "source_checkpoint_sha256": "79a46c94eac4739abf5b9ae1ba37e4fd4d17a838527d172c63ffae7c12afb6db",
+  "ema_sha256": "e38ede33c5424fe7a9578425abf234e6c20e4dba7524145d5311c50344356b2f",
+  "tensor_count": 177,
+  "parameter_count": 9800012,
+  "sorted_tensor_digest": "8529580fb30933fff4386c68ccc0b76fb711308a5e015143f7dfc960534decee",
+  "metadata_normalization": "JSON scalar types; excludes optimizer and converts TorchVersion string subclasses",
+  "weights_only_load": true,
+  "all_tensors_unchanged": true,
+  "model_metadata_scan": "passed"
+}

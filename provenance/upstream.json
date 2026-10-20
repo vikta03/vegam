@@ -1,0 +1,52 @@
+{
+  "upstream_commit": "b38ed00a25baed9554d2675ec376bd50dad18195",
+  "release": "v0.32.0",
+  "date": "2026-09-29",
+  "method": "Read pristine git objects and compare with original daily-driver vendor source; no engine execution, compilation or benchmark.",
+  "files": {
+    "src/chess/board.cc": {
+      "pristine_sha256": "d04e8973fa671a30cdd371f4617456e7c325d004fa9cd5c84a4cb1b7aa49e9d6",
+      "daily_source_sha256": "81c1ff72ecda4d79fbea5b7b3d36f5f24e18bbcc60c13f9c036b2e70cddd4895",
+      "whole_file_identical": false
+    },
+    "src/chess/board.h": {
+      "pristine_sha256": "1fa60f2b1a6c1415a74e88f89a8bf24b63284db8153086a84657c3da4dd982f0",
+      "daily_source_sha256": "1fa60f2b1a6c1415a74e88f89a8bf24b63284db8153086a84657c3da4dd982f0",
+      "whole_file_identical": true
+    },
+    "src/chess/position.cc": {
+      "pristine_sha256": "0387843ab7dec5a5e6252b3968b7d2bf1838a998dc74474a1f13777dff7c2943",
+      "daily_source_sha256": "0387843ab7dec5a5e6252b3968b7d2bf1838a998dc74474a1f13777dff7c2943",
+      "whole_file_identical": true
+    },
+    "src/search/classic/node.h": {
+      "pristine_sha256": "9b9da4b15dd22f06bb9dd114b5419179f2537ae32292fe48bb741965fec5cc64",
+      "daily_source_sha256": "60b964a0e4078bf136e2243641f557a7da6aa37badb07ba49af1f6a645e274bf",
+      "whole_file_identical": false
+    },
+    "src/search/classic/search.cc": {
+      "pristine_sha256": "532de4fd114f8ff140ef54732898d9d831ef14c7e0dd671867ae6d3b5501adc6",
+      "daily_source_sha256": "d67a98c2c217d09c14c288968ac9e26d5765cddbe0661f327d3b5c22b3beaf65",
+      "whole_file_identical": false
+    },
+    "src/search/dag_classic/search.cc": {
+      "pristine_sha256": "3af08bbfaf94cd0061fef1f9e3b876c35e4ba597275bd8a25b730d338e90cc56",
+      "daily_source_sha256": "3af08bbfaf94cd0061fef1f9e3b876c35e4ba597275bd8a25b730d338e90cc56",
+      "whole_file_identical": true
+    },
+    "src/engine.cc": {
+      "pristine_sha256": "e15c281c08029ac8b9e3f339d4aa3093b2cd1ef8f04fca27b32c7fc7aef8ee75",
+      "daily_source_sha256": "849f353da73c9b2b9c6632d4d4d4984e7d169be22add7cb1849e0de56b816149",
+      "whole_file_identical": false
+    }
+  },
+  "checks": {
+    "classic_original_comparator_identical_to_pristine": true,
+    "dag_classic_original_comparator_identical_to_pristine": true,
+    "faulty_parser_condition_identical": true,
+    "repetition_and_fen_position_code_pristine": true,
+    "iterator_early_stop_present_in_pristine": true,
+    "ImmediateMateSafety_is_fork_addition": true,
+    "action_value_selection_is_fork_addition": true
+  }
+}

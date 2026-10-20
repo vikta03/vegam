@@ -1,0 +1,36 @@
+{
+  "complete_training": true,
+  "completed_passes": 3,
+  "partial_pass_positions": 0,
+  "equivalent_passes": 3.0,
+  "positions": 732938670,
+  "target_positions": 732938670,
+  "initialization": {
+    "kind": "pilot_weights_fresh_optimizer",
+    "sha256": "90ce2c629533f970802542c38ba3f9f5fdf8ad2eb15dfd51734fc82681249d65",
+    "prior_exposures": 5000000,
+    "source_manifest_sha": "47b789b35141e31c80f00f1545f53ab8bac7c1d076899208098cf7ec4fefd3ac"
+  },
+  "requested_positions": 732938670,
+  "requested_completion": true,
+  "stop_reason": "target_completed",
+  "selection": "latest_checkpoint_ema",
+  "strength": "unrated",
+  "replay_exposures": 0,
+  "model": {
+    "key": "nextchess-20260912/runs/nextchess-epochs23-pro5000-continue-20260919/result/model.onnx",
+    "sha256": "4d6b94c81676cba1c2055812a82f972be07fae3c55236b9b5ba0c87dd1afab6e",
+    "bytes": 19696126,
+    "readback_verified": true,
+    "metadata_sha256_available": false
+  },
+  "metadata": {
+    "key": "nextchess-20260912/runs/nextchess-epochs23-pro5000-continue-20260919/result/model.json",
+    "sha256": "5fd4ecc33021eac61e2ef0f7bd0d65dd7c90147345d819f6ed6d9b1baead0122",
+    "bytes": 7131,
+    "readback_verified": true,
+    "metadata_sha256_available": false
+  },
+  "package_status": "download_then_local_export_parity_and_native_protocol_checks_required",
+  "checkpoint": "79a46c94eac4739abf5b9ae1ba37e4fd4d17a838527d172c63ffae7c12afb6db"
+}

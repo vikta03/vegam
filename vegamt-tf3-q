@@ -1,0 +1,15 @@
+#!/bin/sh
+# Remmy Victor. GPL-3.0-or-later.
+set -eu
+engine_path=$(readlink -f -- "$0")
+engine_dir=$(CDPATH= cd -- "$(dirname -- "$engine_path")" && pwd)
+cd "$engine_dir"
+export LD_LIBRARY_PATH="$engine_dir/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+if [ ! -f "$engine_dir/model.onnx" ]; then
+    echo "VEGAM: model.onnx is missing. Follow the model download instructions." >&2
+    exit 1
+fi
+exec "$engine_dir/next-chess" classic \
+    --config="$engine_dir/lc0.config" \
+    --weights="$engine_dir/model.onnx" \
+    --next-action-values --no-next-moves-left --no-next-outcome-blend "$@"

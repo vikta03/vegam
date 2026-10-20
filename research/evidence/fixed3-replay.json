@@ -1,0 +1,32 @@
+{
+  "games_replayed": 20,
+  "engine_moves_verified": 2145,
+  "terminal_results_reproduced": true,
+  "illegal_moves": 0,
+  "time_forfeits": 0,
+  "move_limit_draws": 0,
+  "terminations": {
+    "checkmate": 8,
+    "threefold_repetition": 8,
+    "insufficient_material": 4
+  },
+  "source": "Saved PGNs, JSONL move records, and python-chess rules; no engine execution.",
+  "classic": {
+    "moves": 1072,
+    "nps_reported": 1047,
+    "nps_median": 6214,
+    "nps_range": [
+      2760,
+      1013379
+    ]
+  },
+  "dag-preview": {
+    "moves": 1073,
+    "nps_reported": 1046,
+    "nps_median": 6688.0,
+    "nps_range": [
+      1692,
+      21551
+    ]
+  }
+}

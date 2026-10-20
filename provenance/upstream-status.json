@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-20T12:45:14.284153+00:00",
+  "items": [
+    {
+      "html_url": "https://github.com/LeelaChessZero/lc0/issues/2469",
+      "number": 2469,
+      "title": "Repetition detection distinguishes positions that differ only by an unusable en-passant marker",
+      "state": "open",
+      "merged": null,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-09-29T09:04:05Z"
+    },
+    {
+      "html_url": "https://github.com/LeelaChessZero/lc0/issues/2470",
+      "number": 2470,
+      "title": "Terminal-draw comparison violates strict weak ordering in classic and DAG best-child selection",
+      "state": "open",
+      "merged": null,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-10-10T11:02:03Z"
+    },
+    {
+      "html_url": "https://github.com/LeelaChessZero/lc0/issues/2471",
+      "number": 2471,
+      "title": "Position::FromFen stores a one-based fullmove number directly as elapsed game ply",
+      "state": "closed",
+      "merged": null,
+      "merged_at": null,
+      "closed_at": "2026-10-20T09:24:52Z",
+      "updated_at": "2026-10-20T09:24:52Z"
+    },
+    {
+      "html_url": "https://github.com/LeelaChessZero/lc0/pull/2480",
+      "number": 2480,
+      "title": "Convert FEN fullmove numbers to elapsed game plies",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-10-20T09:24:50Z",
+      "closed_at": "2026-10-20T09:24:50Z",
+      "updated_at": "2026-10-20T09:24:54Z"
+    },
+    {
+      "html_url": "https://github.com/LeelaChessZero/lc0/pull/2481",
+      "number": 2481,
+      "title": "Remove terminal-draw pair branch from best-child comparator",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": null,
+      "updated_at": "2026-10-20T11:00:37Z"
+    }
+  ]
+}

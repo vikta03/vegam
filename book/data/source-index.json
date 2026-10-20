@@ -1,0 +1,117 @@
+{
+  "S1": {
+    "path": "NEXT/nextchess/model.py",
+    "sha256": "82c6978e44c0c252b89feaef4c14b8f3b8a9ec9e6e98440db6a5a94c717906cd",
+    "lines": 97
+  },
+  "S2": {
+    "path": "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/candidate/source/src/neural/next_backend.cc",
+    "sha256": "fe54d91c8e7721411c4e8ea15cc843490a1709e78be8a58aa3944c0275d0cc31",
+    "lines": 673
+  },
+  "S3": {
+    "path": "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/candidate/source/src/neural/encoder.cc",
+    "sha256": "f8b1fc47e5f7ab85c9d38a21d1b03f09dba98a5c6760f61f8ebacacf5afbdfae",
+    "lines": 642
+  },
+  "S4": {
+    "path": "NEXT/nextchess/raw.py",
+    "sha256": "9a581f1aa2e2d02756b170a6c475347065af3f459fb02926f7a009f0e4be53ff",
+    "lines": 158
+  },
+  "S4-fast": {
+    "path": "NEXT/nextchess/fast_raw.py",
+    "sha256": "cef9f5159e3b8923f70be7d3b23c4a303d5f1d8aed41e4483d86d52e6c62f1e5",
+    "lines": 99
+  },
+  "S4-context": {
+    "path": "NEXT/nextchess/cloud_data.py",
+    "sha256": "c7cb521b97bb07868dfb2bf421a3673ee1a9e82a5cb16fa3b82b8a6a4a937f76",
+    "lines": 213
+  },
+  "S5": {
+    "path": "NEXT/nextchess/cloud_train.py",
+    "sha256": "7e1018c27355474b86143b3f2ac6501b37819c970c92ec62d2af4dd7b4aeac02",
+    "lines": 330
+  },
+  "S6-launcher": {
+    "path": "WORK/engines/vegamt-tf3-q/vegamt-tf3-q",
+    "sha256": "7582b995031e9f19641a7d628b3233d7e80e5d6964962814bd61a85bcb4fbe5b",
+    "lines": 10
+  },
+  "S6-config": {
+    "path": "WORK/engines/vegamt-tf3-q/lc0.config",
+    "sha256": "879cd1331e73ca326e945b53b6e764b60be7e7db5972f872c3a765ede7a57e87",
+    "lines": 13
+  },
+  "S6-manifest": {
+    "path": "WORK/engines/vegamt-tf3-q/manifest.json",
+    "sha256": "eef2e06005c2eff69fe0e0a66f6e0ca086f5314f8fa40e7fe2ce99014deeb441",
+    "lines": 54
+  },
+  "S7": {
+    "path": "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/candidate/source/src/search/classic/search.cc",
+    "sha256": "6f2078fb93d795c6af6f01ab31c7cd733b19d713d055c3118d70aed41fd4a267",
+    "lines": 2398
+  },
+  "S8": {
+    "path": "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/candidate/source/src/search/classic/node.h",
+    "sha256": "ee34d44c44996e39d22e27e524171b8fdb75467700838aa5aa66c7f2fa7febad",
+    "lines": 687
+  },
+  "S9": {
+    "path": "WORK/research/vegam_atlas/atlas/model.py",
+    "sha256": "4734b773f4f440c86d6b03cd10f40e02f46a964979cb91a4881459d597dbb481",
+    "lines": 206
+  },
+  "T1-model": {
+    "path": "NEXT/runs/epochs23-20260919-pro5000-continue/downloads/final/model.json",
+    "sha256": "5fd4ecc33021eac61e2ef0f7bd0d65dd7c90147345d819f6ed6d9b1baead0122",
+    "lines": 241
+  },
+  "T1-result": {
+    "path": "NEXT/runs/epochs23-20260919-pro5000-continue/downloads/final/result.json",
+    "sha256": "848d516c2b17277edd900c68042a099281eab3278a91cbc38cf3f8886c872089",
+    "lines": 36
+  },
+  "T2": {
+    "path": "NEXT/runs/epoch-comparison-20260920/comparison.md",
+    "sha256": "1008063241b91c31fd401fabd16a17b59ef0fbc7b4014ab408a2da8875fe6740",
+    "lines": 37
+  },
+  "T3": {
+    "path": "WORK/research/tf3_qhead_20261001/RESULTS.md",
+    "sha256": "65cb49634d8b95cc1d1ca1ff4ca7f5e0c183320e565b4c59676e0624c201313e",
+    "lines": 94
+  },
+  "T4": {
+    "path": "WORK/research/vegamt_fixed3/LATEST_RESULTS.md",
+    "sha256": "b70bd6f071d4d3bf9b721d5d8612985aaf85d1968701bf9643872dd418caba03",
+    "lines": 37
+  },
+  "G1": {
+    "path": "WORK/research/vegam_atlas/fixtures/catalan.pgn",
+    "sha256": "35df7c8632c32073b22271ed9484c62f7440ed45a0a182200990a3e5648dec11",
+    "lines": 83
+  },
+  "M1": {
+    "path": "WORK/research/vegam_atlas/data/calibration.json",
+    "sha256": "490bae0921658943ff5dc692e380725483121b817c2f039e907828a7515b7423",
+    "lines": 104
+  },
+  "M2": {
+    "path": "WORK/research/vegam_atlas/data/runs/20261009T172318Z-bg7-6c1903/result.json",
+    "sha256": "e51be2f05e2b8f9f6744e90fac9a11a27709bde7a3dbc9a67abd36481291dc9f",
+    "lines": 3840
+  },
+  "M3": {
+    "path": "WORK/research/vegam_atlas/data/analyses/b17cbc321220a5b0cd7c1480/search.json",
+    "sha256": "7b5814e727d0969d00079cf6de29fd5c38f509b21b28a1f65c8c54b2173b0894",
+    "lines": 78
+  },
+  "historical": {
+    "path": "NEXT/VEGAM8.md",
+    "sha256": "8c57076cb9e04457ada3c8cf0ddbd179941d32de37a1a9e7d088ddd184e476a6",
+    "lines": 796
+  }
+}

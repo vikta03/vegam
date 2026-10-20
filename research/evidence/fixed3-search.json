@@ -1,0 +1,5197 @@
+{
+  "status": "passed",
+  "ordering": {
+    "production_comparator_bodies_identical": true,
+    "output": "comparator\t122050\t27\nchecks\t122050\n",
+    "note": "Exact production lambda exercised on real classic Node objects; DAG runtime exercised separately."
+  },
+  "rows": [
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0005330629992386093,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 7
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.30592) (S:  0.38420) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.33625) (S:  0.41452) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.39097) (S:  0.46925) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.44395) (S:  0.52223) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45778) (S:  0.53606) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45801) (S:  0.53629) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49147) (S:  0.56975) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49426) (S:  0.57254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.50913) (S:  0.58741) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.71757) (S:  0.79585) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.72826) (S:  0.80654) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 1.99191) (S:  2.07019) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.10920) (D: 0.788) (M:  0.9) (Q:  0.10920) (AQ:      nan) (AD:  0.00000) (U: 0.01445) (S:  0.12341) (V:  -.----) (L)",
+          "wl": 0.1092,
+          "d": 0.788,
+          "m": 0.9,
+          "q": 0.1092,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 68 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 15 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "pinned-replay",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003979960001743166,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 7
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.30592) (S:  0.38420) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.33625) (S:  0.41452) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.39097) (S:  0.46925) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.44395) (S:  0.52223) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45778) (S:  0.53606) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45801) (S:  0.53629) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49147) (S:  0.56975) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49426) (S:  0.57254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.50913) (S:  0.58741) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.71757) (S:  0.79585) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.72826) (S:  0.80654) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 1.99191) (S:  2.07019) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.10920) (D: 0.788) (M:  0.9) (Q:  0.10920) (AQ:      nan) (AD:  0.00000) (U: 0.01445) (S:  0.12341) (V:  -.----) (L)",
+          "wl": 0.1092,
+          "d": 0.788,
+          "m": 0.9,
+          "q": 0.1092,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 68 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 15 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "pinned-replay-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0003976869993493892,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 7
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.30592) (S:  0.38420) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.33625) (S:  0.41452) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.39097) (S:  0.46925) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.44395) (S:  0.52223) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45778) (S:  0.53606) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45801) (S:  0.53629) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49147) (S:  0.56975) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49426) (S:  0.57254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.50913) (S:  0.58741) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.71757) (S:  0.79585) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.72826) (S:  0.80654) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 1.99191) (S:  2.07019) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.10920) (D: 0.788) (M:  0.9) (Q:  0.10920) (AQ:      nan) (AD:  0.00000) (U: 0.01445) (S:  0.12341) (V:  -.----) (L)",
+          "wl": 0.1092,
+          "d": 0.788,
+          "m": 0.9,
+          "q": 0.1092,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 68 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 15 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "pinned-fen",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003950869995605899,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 7
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.30592) (S:  0.38420) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.33625) (S:  0.41452) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.39097) (S:  0.46925) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.44395) (S:  0.52223) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45778) (S:  0.53606) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.45801) (S:  0.53629) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49147) (S:  0.56975) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.49426) (S:  0.57254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.50913) (S:  0.58741) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.71757) (S:  0.79585) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 0.72826) (S:  0.80654) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.07828) (AQ:      nan) (AD:  0.00000) (U: 1.99191) (S:  2.07019) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.07828,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.10920) (D: 0.788) (M:  0.9) (Q:  0.10920) (AQ:      nan) (AD:  0.00000) (U: 0.01445) (S:  0.12341) (V:  -.----) (L)",
+          "wl": 0.1092,
+          "d": 0.788,
+          "m": 0.9,
+          "q": 0.1092,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 68 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 15 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 20 score cp 7 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "pinned-fen-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.000338345000272966,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "legal-replay",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003113880011369474,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "legal-replay-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0003139710006507812,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "legal-fen",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.00032888600071601104,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed1-classic",
+      "case": "legal-fen-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0003931479986931663,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h8g8",
+      "pv": [
+        "h8g8"
+      ],
+      "pv_san": [
+        "Kg8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.28679) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.31791) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.37406) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.42842) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.44260) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.44284) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.47718) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.48004) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.49530) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.70916) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.72013) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.01669) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": true,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.01412) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 3 score cp 0 tbhits 0 pv h8g8",
+        "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h8g8"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "pinned-replay",
+      "expected_terminal_draw": true,
+      "actual_terminal_draw": true
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.00029948100018373225,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h1g1",
+      "pv": [
+        "h1g1"
+      ],
+      "pv_san": [
+        "Kg1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.28679) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.31791) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.37406) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.42842) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.44260) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.44284) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.47718) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.48004) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.49530) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.70916) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.72013) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.01669) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": true,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.01412) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 3 score cp 0 tbhits 0 pv h1g1",
+        "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h1g1"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "pinned-replay-mirror",
+      "expected_terminal_draw": true,
+      "actual_terminal_draw": true
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.000282713999695261,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h8g8",
+      "pv": [
+        "h8g8"
+      ],
+      "pv_san": [
+        "Kg8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.28679) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.31791) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.37406) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.42842) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.44260) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.44284) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.47718) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.48004) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.49530) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.70916) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.72013) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.01669) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": true,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.01412) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 3 score cp 0 tbhits 0 pv h8g8",
+        "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h8g8"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "pinned-fen",
+      "expected_terminal_draw": true,
+      "actual_terminal_draw": true
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003111770001851255,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h1g1",
+      "pv": [
+        "h1g1"
+      ],
+      "pv_san": [
+        "Kg1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.28679) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.31791) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.37406) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.42842) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.44260) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.44284) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.47718) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.48004) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.49530) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.70916) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.72013) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02709) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.01669) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02709,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": true,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.01412) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 3 score cp 0 tbhits 0 pv h1g1",
+        "info depth 1 seldepth 2 time 0 nodes 21 score cp 0 tbhits 0 pv h1g1"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "pinned-fen-mirror",
+      "expected_terminal_draw": true,
+      "actual_terminal_draw": true
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.00036225899930286687,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "legal-replay",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003680219997477252,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "legal-replay-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0003229850008210633,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "legal-fen",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0002671839993126923,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (AQ:      nan) (AD:  0.00000) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  0.9) (Q:  0.09830) (AQ:      nan) (AD:  0.00000) (U: 0.01412) (S:  0.11278) (V:  -.----) (L)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 0.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 4 score cp 14 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "legal-fen-mirror",
+      "expected_terminal_draw": false,
+      "actual_terminal_draw": false
+    },
+    {
+      "move": "f2f1",
+      "san": "Kf1",
+      "seconds": 0.0011892839993379312,
+      "counters": {
+        "depth": 2,
+        "seldepth": 6,
+        "time": 1,
+        "nodes": 513,
+        "nps": 513000
+      },
+      "native_nps": 513000,
+      "info": "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f2f1",
+      "pv": [
+        "f2f1"
+      ],
+      "pv_san": [
+        "Kf1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "f2g1": {
+          "move": "f2g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f2g1  (335 ) N:       0 (+ 0) (P: 19.03%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 7.72079) (S:  7.43709) (V:  -.----)",
+          "wl": 0.0,
+          "d": 0.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 19.03
+        },
+        "f2e1": {
+          "move": "f2e1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f2e1  (333 ) N:       0 (+ 0) (P: 20.08%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 8.14670) (S:  7.86299) (V:  -.----)",
+          "wl": 0.0,
+          "d": 0.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 20.08
+        },
+        "f2g3": {
+          "move": "f2g3",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string f2g3  (347 ) N:      26 (+ 0) (P: 32.42%) (WL: -0.48900) (D: 0.307) (M:  1.8) (Q: -0.48900) (AQ:      nan) (AD:  0.00000) (U: 0.48717) (S: -0.00204) (V:  -.----)",
+          "wl": -0.489,
+          "d": 0.307,
+          "m": 1.8,
+          "q": -0.489,
+          "p": 32.42
+        },
+        "f2f3": {
+          "move": "f2f3",
+          "n": 165,
+          "terminal": true,
+          "raw": "info string f2f3  (346 ) N:     165 (+ 0) (P:  9.65%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.02358) (S:  0.02358) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 9.65
+        },
+        "f2f1": {
+          "move": "f2f1",
+          "n": 321,
+          "terminal": true,
+          "raw": "info string f2f1  (334 ) N:     321 (+ 0) (P: 18.82%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.02371) (S:  0.02371) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 18.82
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp -75 tbhits 0 pv f2g3 f3f2",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp -111 tbhits 0 pv f2g3 f3f2 g3f3",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 4 time 0 nodes 24 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 5 time 0 nodes 286 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 6 time 1 nodes 499 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f2f1"
+      ],
+      "command": "go nodes 512 searchmoves f2f3 f2f1 f2g3",
+      "fen": "8/8/8/8/3k4/5p2/5K2/8 w - - 7 5",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "draw-choice",
+      "selection": {
+        "passed": true,
+        "rank": 2,
+        "selected_visits": 321,
+        "visited_children": 3
+      }
+    },
+    {
+      "move": "f7f8",
+      "san": "Kf8",
+      "seconds": 0.001211348000651924,
+      "counters": {
+        "depth": 2,
+        "seldepth": 6,
+        "time": 1,
+        "nodes": 513,
+        "nps": 513000
+      },
+      "native_nps": 513000,
+      "info": "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f7f8",
+      "pv": [
+        "f7f8"
+      ],
+      "pv_san": [
+        "Kf8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "f7g8": {
+          "move": "f7g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f7g8  (335 ) N:       0 (+ 0) (P: 19.03%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 7.72079) (S:  7.43709) (V:  -.----)",
+          "wl": 0.0,
+          "d": 0.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 19.03
+        },
+        "f7e8": {
+          "move": "f7e8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f7e8  (333 ) N:       0 (+ 0) (P: 20.08%) (WL:  0.00000) (D: 0.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 8.14670) (S:  7.86299) (V:  -.----)",
+          "wl": 0.0,
+          "d": 0.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 20.08
+        },
+        "f7g6": {
+          "move": "f7g6",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string f7g6  (347 ) N:      26 (+ 0) (P: 32.42%) (WL: -0.48900) (D: 0.307) (M:  1.8) (Q: -0.48900) (AQ:      nan) (AD:  0.00000) (U: 0.48717) (S: -0.00204) (V:  -.----)",
+          "wl": -0.489,
+          "d": 0.307,
+          "m": 1.8,
+          "q": -0.489,
+          "p": 32.42
+        },
+        "f7f6": {
+          "move": "f7f6",
+          "n": 165,
+          "terminal": true,
+          "raw": "info string f7f6  (346 ) N:     165 (+ 0) (P:  9.65%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.02358) (S:  0.02358) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 9.65
+        },
+        "f7f8": {
+          "move": "f7f8",
+          "n": 321,
+          "terminal": true,
+          "raw": "info string f7f8  (334 ) N:     321 (+ 0) (P: 18.82%) (WL:  0.00000) (D: 1.000) (M:  0.0) (Q:  0.00000) (AQ:      nan) (AD:  0.00000) (U: 0.02371) (S:  0.02371) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 0.0,
+          "q": 0.0,
+          "p": 18.82
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp -75 tbhits 0 pv f7g6 f6f7",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp -111 tbhits 0 pv f7g6 f6f7 g6f6",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 4 time 0 nodes 24 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 5 time 0 nodes 286 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 6 time 1 nodes 499 score cp 0 nps 499000 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f7f8"
+      ],
+      "command": "go nodes 512 searchmoves f7f6 f7f8 f7g6",
+      "fen": "8/5k2/5P2/3K4/8/8/8/8 b - - 7 4",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "draw-choice-mirror",
+      "selection": {
+        "passed": true,
+        "rank": 2,
+        "selected_visits": 321,
+        "visited_children": 3
+      }
+    },
+    {
+      "move": "f5f4",
+      "san": "f4",
+      "seconds": 0.000810125000498374,
+      "counters": {
+        "depth": 4,
+        "seldepth": 7,
+        "time": 0,
+        "nodes": 128
+      },
+      "native_nps": null,
+      "info": "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+      "pv": [
+        "f5f4",
+        "g5g6",
+        "a1a2",
+        "g7f6",
+        "f4f3",
+        "g6g7",
+        "f3f2"
+      ],
+      "pv_san": [
+        "f4",
+        "g6",
+        "Ka2",
+        "Kf6",
+        "f3",
+        "g7",
+        "f2"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 11
+      },
+      "stats": {
+        "a1b1": {
+          "move": "a1b1",
+          "n": 14,
+          "terminal": false,
+          "raw": "info string a1b1  (1614) N:      14 (+ 0) (P: 20.59%) (WL: -0.08507) (D: 0.000) (M:  1.4) (Q: -0.08507) (AQ:      nan) (AD:  0.00000) (U: 0.27184) (S:  0.18677) (V:  -.----)",
+          "wl": -0.08507,
+          "d": 0.0,
+          "m": 1.4,
+          "q": -0.08507,
+          "p": 20.59
+        },
+        "a1a2": {
+          "move": "a1a2",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string a1a2  (1611) N:      26 (+ 0) (P: 30.81%) (WL: -0.01457) (D: 0.000) (M:  1.8) (Q: -0.01457) (AQ:      nan) (AD:  0.00000) (U: 0.22595) (S:  0.21138) (V:  -.----)",
+          "wl": -0.01457,
+          "d": 0.0,
+          "m": 1.8,
+          "q": -0.01457,
+          "p": 30.81
+        },
+        "a1b2": {
+          "move": "a1b2",
+          "n": 28,
+          "terminal": false,
+          "raw": "info string a1b2  (1612) N:      28 (+ 0) (P: 33.86%) (WL: -0.03266) (D: 0.000) (M:  1.9) (Q: -0.03266) (AQ:      nan) (AD:  0.00000) (U: 0.23120) (S:  0.19854) (V:  -.----)",
+          "wl": -0.03266,
+          "d": 0.0,
+          "m": 1.9,
+          "q": -0.03266,
+          "p": 33.86
+        },
+        "f5f4": {
+          "move": "f5f4",
+          "n": 59,
+          "terminal": false,
+          "raw": "info string f5f4  (830 ) N:      59 (+ 0) (P: 14.74%) (WL:  0.16235) (D: 0.000) (M:  2.4) (Q:  0.16235) (AQ:      nan) (AD:  0.00000) (U: 0.04864) (S:  0.21100) (V:  -.----)",
+          "wl": 0.16235,
+          "d": 0.0,
+          "m": 2.4,
+          "q": 0.16235,
+          "p": 14.74
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 2 tbhits 0 pv a1b2 g7f6",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 0 tbhits 0 pv a1b2 g7f6 b2c3",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 11 tbhits 0 pv a1a2 g7f6 a2b3",
+        "info depth 2 seldepth 4 time 0 nodes 6 score cp 6 tbhits 0 pv a1a2 g7f6 a2b3 f6f7",
+        "info depth 2 seldepth 5 time 0 nodes 13 score cp 3 tbhits 0 pv a1a2 g7f6 a2b3 f6f7",
+        "info depth 2 seldepth 5 time 0 nodes 15 score cp 2 tbhits 0 pv a1b2 g7f6 b2c3 f6f7 c3c2",
+        "info depth 3 seldepth 5 time 0 nodes 17 score cp 4 tbhits 0 pv a1a2 g7f6 a2b3 f6f7 b3b2",
+        "info depth 3 seldepth 5 time 0 nodes 52 score cp 0 tbhits 0 pv a1b2 g5g6 b2c3 g7f6 c3c2",
+        "info depth 3 seldepth 6 time 0 nodes 60 score cp 1 tbhits 0 pv a1b2 g5g6 b2a2 g7f6 a2b3 g6g7",
+        "info depth 3 seldepth 6 time 0 nodes 84 score cp 12 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 a2b3",
+        "info depth 3 seldepth 7 time 0 nodes 109 score cp 13 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+        "info depth 4 seldepth 7 time 0 nodes 117 score cp 11 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+        "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2"
+      ],
+      "command": "go nodes 128",
+      "fen": "8/6K1/8/5pP1/8/8/8/k7 b - - 1 2",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "parser-white"
+    },
+    {
+      "move": "f4f5",
+      "san": "f5",
+      "seconds": 0.0005393110004661139,
+      "counters": {
+        "depth": 4,
+        "seldepth": 7,
+        "time": 0,
+        "nodes": 128
+      },
+      "native_nps": null,
+      "info": "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+      "pv": [
+        "f4f5",
+        "g4g3",
+        "a8a7",
+        "g2f3",
+        "f5f6",
+        "g3g2",
+        "f6f7"
+      ],
+      "pv_san": [
+        "f5",
+        "g3",
+        "Ka7",
+        "Kf3",
+        "f6",
+        "g2",
+        "f7"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 11
+      },
+      "stats": {
+        "a8b8": {
+          "move": "a8b8",
+          "n": 14,
+          "terminal": false,
+          "raw": "info string a8b8  (1614) N:      14 (+ 0) (P: 20.59%) (WL: -0.08507) (D: 0.000) (M:  1.4) (Q: -0.08507) (AQ:      nan) (AD:  0.00000) (U: 0.27184) (S:  0.18677) (V:  -.----)",
+          "wl": -0.08507,
+          "d": 0.0,
+          "m": 1.4,
+          "q": -0.08507,
+          "p": 20.59
+        },
+        "a8a7": {
+          "move": "a8a7",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string a8a7  (1611) N:      26 (+ 0) (P: 30.81%) (WL: -0.01457) (D: 0.000) (M:  1.8) (Q: -0.01457) (AQ:      nan) (AD:  0.00000) (U: 0.22595) (S:  0.21138) (V:  -.----)",
+          "wl": -0.01457,
+          "d": 0.0,
+          "m": 1.8,
+          "q": -0.01457,
+          "p": 30.81
+        },
+        "a8b7": {
+          "move": "a8b7",
+          "n": 28,
+          "terminal": false,
+          "raw": "info string a8b7  (1612) N:      28 (+ 0) (P: 33.86%) (WL: -0.03266) (D: 0.000) (M:  1.9) (Q: -0.03266) (AQ:      nan) (AD:  0.00000) (U: 0.23120) (S:  0.19854) (V:  -.----)",
+          "wl": -0.03266,
+          "d": 0.0,
+          "m": 1.9,
+          "q": -0.03266,
+          "p": 33.86
+        },
+        "f4f5": {
+          "move": "f4f5",
+          "n": 59,
+          "terminal": false,
+          "raw": "info string f4f5  (830 ) N:      59 (+ 0) (P: 14.74%) (WL:  0.16235) (D: 0.000) (M:  2.4) (Q:  0.16235) (AQ:      nan) (AD:  0.00000) (U: 0.04864) (S:  0.21100) (V:  -.----)",
+          "wl": 0.16235,
+          "d": 0.0,
+          "m": 2.4,
+          "q": 0.16235,
+          "p": 14.74
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 2 tbhits 0 pv a8b7 g2f3",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 0 tbhits 0 pv a8b7 g2f3 b7c6",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 11 tbhits 0 pv a8a7 g2f3 a7b6",
+        "info depth 2 seldepth 4 time 0 nodes 6 score cp 6 tbhits 0 pv a8a7 g2f3 a7b6 f3f2",
+        "info depth 2 seldepth 5 time 0 nodes 13 score cp 3 tbhits 0 pv a8a7 g2f3 a7b6 f3f2",
+        "info depth 2 seldepth 5 time 0 nodes 15 score cp 2 tbhits 0 pv a8b7 g2f3 b7c6 f3f2 c6c7",
+        "info depth 3 seldepth 5 time 0 nodes 17 score cp 4 tbhits 0 pv a8a7 g2f3 a7b6 f3f2 b6b7",
+        "info depth 3 seldepth 5 time 0 nodes 52 score cp 0 tbhits 0 pv a8b7 g4g3 b7c6 g2f3 c6c7",
+        "info depth 3 seldepth 6 time 0 nodes 60 score cp 1 tbhits 0 pv a8b7 g4g3 b7a7 g2f3 a7b6 g3g2",
+        "info depth 3 seldepth 6 time 0 nodes 84 score cp 12 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 a7b6",
+        "info depth 3 seldepth 7 time 0 nodes 109 score cp 13 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+        "info depth 4 seldepth 7 time 0 nodes 117 score cp 11 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+        "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7"
+      ],
+      "command": "go nodes 128",
+      "fen": "K7/8/8/8/5Pp1/8/6k1/8 w - - 1 2",
+      "backend": [],
+      "arm": "fixed3-classic",
+      "case": "parser-black"
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0006401450009434484,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h8g8",
+      "pv": [
+        "h8g8"
+      ],
+      "pv_san": [
+        "Kg8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.30592) (S:  0.28069) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.33625) (S:  0.31101) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.39097) (S:  0.36574) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.44395) (S:  0.41872) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45778) (S:  0.43254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45801) (S:  0.43278) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49147) (S:  0.46624) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49426) (S:  0.46903) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.50913) (S:  0.48390) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.71757) (S:  0.69234) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.72826) (S:  0.70303) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 1.99191) (S:  1.96668) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.01445) (S:  0.01445) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 0 tbhits 0 pv h8g8",
+        "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h8g8"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "pinned-replay",
+      "expected_draw": true,
+      "draw_recognized": true,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003852779991575517,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h1g1",
+      "pv": [
+        "h1g1"
+      ],
+      "pv_san": [
+        "Kg1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.30592) (S:  0.28069) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.33625) (S:  0.31101) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.39097) (S:  0.36574) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.44395) (S:  0.41872) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45778) (S:  0.43254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45801) (S:  0.43278) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49147) (S:  0.46624) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49426) (S:  0.46903) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.50913) (S:  0.48390) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.71757) (S:  0.69234) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.72826) (S:  0.70303) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 1.99191) (S:  1.96668) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.01445) (S:  0.01445) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 0 tbhits 0 pv h1g1",
+        "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h1g1"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "pinned-replay-mirror",
+      "expected_draw": true,
+      "draw_recognized": true,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.00026960800096276216,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h8g8",
+      "pv": [
+        "h8g8"
+      ],
+      "pv_san": [
+        "Kg8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.30592) (S:  0.28069) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.33625) (S:  0.31101) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.39097) (S:  0.36574) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.44395) (S:  0.41872) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45778) (S:  0.43254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45801) (S:  0.43278) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49147) (S:  0.46624) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49426) (S:  0.46903) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.50913) (S:  0.48390) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.71757) (S:  0.69234) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.72826) (S:  0.70303) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 1.99191) (S:  1.96668) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.01445) (S:  0.01445) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 0 tbhits 0 pv h8g8",
+        "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h8g8"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/4K1N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "pinned-fen",
+      "expected_draw": true,
+      "draw_recognized": true,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0003916810001101112,
+      "counters": {
+        "depth": 1,
+        "seldepth": 2,
+        "time": 0,
+        "nodes": 20
+      },
+      "native_nps": null,
+      "info": "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h1g1",
+      "pv": [
+        "h1g1"
+      ],
+      "pv_san": [
+        "Kg1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.30592) (S:  0.28069) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.33625) (S:  0.31101) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.39097) (S:  0.36574) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.44395) (S:  0.41872) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45778) (S:  0.43254) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.45801) (S:  0.43278) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49147) (S:  0.46624) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.49426) (S:  0.46903) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.50913) (S:  0.48390) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.71757) (S:  0.69234) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 0.72826) (S:  0.70303) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.02523) (U: 1.99191) (S:  1.96668) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.02523,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 19,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      19 (+ 0) (P:  3.79%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.01445) (S:  0.01445) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 0 tbhits 0 pv h1g1",
+        "info depth 1 seldepth 2 time 0 nodes 20 score cp 0 tbhits 0 pv h1g1"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "4k1n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "pinned-fen-mirror",
+      "expected_draw": true,
+      "draw_recognized": true,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.00031467500048165675,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  1.9) (Q:  0.09830) (U: 0.01412) (S:  0.11278) (V:  -.----)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 1.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 23 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "legal-replay",
+      "expected_draw": false,
+      "draw_recognized": false,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.0004619329993147403,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  1.9) (Q:  0.09830) (U: 0.01412) (S:  0.11278) (V:  -.----)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 1.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 23 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "legal-replay-mirror",
+      "expected_draw": false,
+      "draw_recognized": false,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h8g8",
+      "san": "Kg8",
+      "seconds": 0.0005252720002317801,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3",
+      "pv": [
+        "h8g8",
+        "g1f3"
+      ],
+      "pv_san": [
+        "Kg8",
+        "Nf3"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e8f8": {
+          "move": "e8f8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8f8  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e8e7": {
+          "move": "e8e7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e7  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e8b8": {
+          "move": "e8b8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8b8  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e8e5": {
+          "move": "e8e5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e5  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e8d8": {
+          "move": "e8d8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8d8  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e8e6": {
+          "move": "e8e6",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8e6  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h8h7": {
+          "move": "h8h7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8h7  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e8g8": {
+          "move": "e8g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8g8  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e8c8": {
+          "move": "e8c8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8c8  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e8a8": {
+          "move": "e8a8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e8a8  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d5d4": {
+          "move": "d5d4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d5d4  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h8g7": {
+          "move": "h8g7",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h8g7  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h8g8": {
+          "move": "h8g8",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h8g8  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  1.9) (Q:  0.09830) (U: 0.01412) (S:  0.11278) (V:  -.----)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 1.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 23 tbhits 0 pv h8g8 g1f3",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h8g8 g1f3"
+      ],
+      "command": "go nodes 20 searchmoves h8g8",
+      "fen": "4r2k/8/8/3pP3/8/8/8/K5N1 b - - 7 5",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "legal-fen",
+      "expected_draw": false,
+      "draw_recognized": false,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "h1g1",
+      "san": "Kg1",
+      "seconds": 0.00040067800000542775,
+      "counters": {
+        "depth": 2,
+        "seldepth": 3,
+        "time": 0,
+        "nodes": 21
+      },
+      "native_nps": null,
+      "info": "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6",
+      "pv": [
+        "h1g1",
+        "g8f6"
+      ],
+      "pv_san": [
+        "Kg1",
+        "Nf6"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 6
+      },
+      "stats": {
+        "e1f1": {
+          "move": "e1f1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1f1  (101 ) N:       0 (+ 0) (P:  4.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.31389) (S:  0.37994) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.02
+        },
+        "e1e2": {
+          "move": "e1e2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e2  (106 ) N:       0 (+ 0) (P:  4.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.34500) (S:  0.41106) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 4.42
+        },
+        "e1b1": {
+          "move": "e1b1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1b1  (98  ) N:       0 (+ 0) (P:  5.13%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.40115) (S:  0.46720) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.13
+        },
+        "e1e4": {
+          "move": "e1e4",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e4  (115 ) N:       0 (+ 0) (P:  5.83%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.45551) (S:  0.52157) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 5.83
+        },
+        "e1d1": {
+          "move": "e1d1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1d1  (100 ) N:       0 (+ 0) (P:  6.01%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46970) (S:  0.53575) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.01
+        },
+        "e1e3": {
+          "move": "e1e3",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1e3  (111 ) N:       0 (+ 0) (P:  6.02%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.46994) (S:  0.53599) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.02
+        },
+        "h1h2": {
+          "move": "h1h2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1h2  (180 ) N:       0 (+ 0) (P:  6.45%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50427) (S:  0.57032) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.45
+        },
+        "e1g1": {
+          "move": "e1g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1g1  (102 ) N:       0 (+ 0) (P:  6.49%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.50713) (S:  0.57318) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.49
+        },
+        "e1c1": {
+          "move": "e1c1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1c1  (99  ) N:       0 (+ 0) (P:  6.69%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.52239) (S:  0.58844) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 6.69
+        },
+        "e1a1": {
+          "move": "e1a1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string e1a1  (97  ) N:       0 (+ 0) (P:  9.42%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.73626) (S:  0.80231) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.42
+        },
+        "d4d5": {
+          "move": "d4d5",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string d4d5  (761 ) N:       0 (+ 0) (P:  9.56%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 0.74722) (S:  0.81328) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 9.56
+        },
+        "h1g2": {
+          "move": "h1g2",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string h1g2  (179 ) N:       0 (+ 0) (P: 26.16%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q:  0.06605) (U: 2.04378) (S:  2.10983) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": 0.06605,
+          "p": 26.16
+        },
+        "h1g1": {
+          "move": "h1g1",
+          "n": 20,
+          "terminal": false,
+          "raw": "info string h1g1  (177 ) N:      20 (+ 0) (P:  3.79%) (WL:  0.09830) (D: 0.800) (M:  1.9) (Q:  0.09830) (U: 0.01412) (S:  0.11278) (V:  -.----)",
+          "wl": 0.0983,
+          "d": 0.8,
+          "m": 1.9,
+          "q": 0.0983,
+          "p": 3.79
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 63 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 23 tbhits 0 pv h1g1 g8f6",
+        "info depth 2 seldepth 3 time 0 nodes 21 score cp 6 tbhits 0 pv h1g1 g8f6"
+      ],
+      "command": "go nodes 20 searchmoves h1g1",
+      "fen": "k5n1/8/8/8/3Pp3/8/8/4R2K w - - 7 6",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "legal-fen-mirror",
+      "expected_draw": false,
+      "draw_recognized": false,
+      "permanent_terminal": false,
+      "checks_passed": true,
+      "recognition_method": "path draw values, M=1, PV/depth cutoff"
+    },
+    {
+      "move": "f2f1",
+      "san": "Kf1",
+      "seconds": 0.0014622159997088602,
+      "counters": {
+        "depth": 2,
+        "seldepth": 6,
+        "time": 1,
+        "nodes": 513,
+        "nps": 513000
+      },
+      "native_nps": 513000,
+      "info": "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f2f1",
+      "pv": [
+        "f2f1"
+      ],
+      "pv_san": [
+        "Kf1"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "f2g1": {
+          "move": "f2g1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f2g1  (335 ) N:       0 (+ 0) (P: 19.03%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.28370) (U: 7.72079) (S:  7.43709) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.2837,
+          "p": 19.03
+        },
+        "f2e1": {
+          "move": "f2e1",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f2e1  (333 ) N:       0 (+ 0) (P: 20.08%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.28370) (U: 8.14670) (S:  7.86299) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.2837,
+          "p": 20.08
+        },
+        "f2g3": {
+          "move": "f2g3",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string f2g3  (347 ) N:      26 (+ 0) (P: 32.42%) (WL: -0.48900) (D: 0.307) (M:  2.8) (Q: -0.48900) (U: 0.48717) (S: -0.00204) (V:  -.----)",
+          "wl": -0.489,
+          "d": 0.307,
+          "m": 2.8,
+          "q": -0.489,
+          "p": 32.42
+        },
+        "f2f3": {
+          "move": "f2f3",
+          "n": 165,
+          "terminal": true,
+          "raw": "info string f2f3  (346 ) N:     165 (+ 0) (P:  9.65%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.02358) (S:  0.02358) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 9.65
+        },
+        "f2f1": {
+          "move": "f2f1",
+          "n": 321,
+          "terminal": false,
+          "raw": "info string f2f1  (334 ) N:     321 (+ 0) (P: 18.82%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.02371) (S:  0.02371) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 18.82
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp -75 tbhits 0 pv f2g3 f3f2",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp -111 tbhits 0 pv f2g3 f3f2 g3f3",
+        "info depth 2 seldepth 3 time 0 nodes 6 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 4 time 0 nodes 24 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 5 time 0 nodes 286 score cp 0 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 6 time 1 nodes 499 score cp 0 nps 499000 tbhits 0 pv f2f1",
+        "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f2f1"
+      ],
+      "command": "go nodes 512 searchmoves f2f3 f2f1 f2g3",
+      "fen": "8/8/8/8/3k4/5p2/5K2/8 w - - 7 5",
+      "backend": [],
+      "draw_checks": {
+        "f2f3": "terminal draw",
+        "f2f1": "threefold path draw"
+      },
+      "arm": "fixed3-dag",
+      "case": "draw-choice",
+      "selection": {
+        "passed": true,
+        "rank": 2,
+        "selected_visits": 321,
+        "visited_children": 3
+      }
+    },
+    {
+      "move": "f7f8",
+      "san": "Kf8",
+      "seconds": 0.0013719020007556537,
+      "counters": {
+        "depth": 2,
+        "seldepth": 6,
+        "time": 1,
+        "nodes": 513,
+        "nps": 513000
+      },
+      "native_nps": 513000,
+      "info": "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f7f8",
+      "pv": [
+        "f7f8"
+      ],
+      "pv_san": [
+        "Kf8"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 0
+      },
+      "stats": {
+        "f7g8": {
+          "move": "f7g8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f7g8  (335 ) N:       0 (+ 0) (P: 19.03%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.28370) (U: 7.72079) (S:  7.43709) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.2837,
+          "p": 19.03
+        },
+        "f7e8": {
+          "move": "f7e8",
+          "n": 0,
+          "terminal": false,
+          "raw": "info string f7e8  (333 ) N:       0 (+ 0) (P: 20.08%) (WL:  -.-----) (D: -.---) (M:  -.-) (Q: -0.28370) (U: 8.14670) (S:  7.86299) (V:  -.----)",
+          "wl": null,
+          "d": null,
+          "m": null,
+          "q": -0.2837,
+          "p": 20.08
+        },
+        "f7g6": {
+          "move": "f7g6",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string f7g6  (347 ) N:      26 (+ 0) (P: 32.42%) (WL: -0.48900) (D: 0.307) (M:  2.8) (Q: -0.48900) (U: 0.48717) (S: -0.00204) (V:  -.----)",
+          "wl": -0.489,
+          "d": 0.307,
+          "m": 2.8,
+          "q": -0.489,
+          "p": 32.42
+        },
+        "f7f6": {
+          "move": "f7f6",
+          "n": 165,
+          "terminal": true,
+          "raw": "info string f7f6  (346 ) N:     165 (+ 0) (P:  9.65%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.02358) (S:  0.02358) (V:  0.0000) (T)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 9.65
+        },
+        "f7f8": {
+          "move": "f7f8",
+          "n": 321,
+          "terminal": false,
+          "raw": "info string f7f8  (334 ) N:     321 (+ 0) (P: 18.82%) (WL:  0.00000) (D: 1.000) (M:  1.0) (Q:  0.00000) (U: 0.02371) (S:  0.02371) (V:  -.----)",
+          "wl": 0.0,
+          "d": 1.0,
+          "m": 1.0,
+          "q": 0.0,
+          "p": 18.82
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp -75 tbhits 0 pv f7g6 f6f7",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp -111 tbhits 0 pv f7g6 f6f7 g6f6",
+        "info depth 2 seldepth 3 time 0 nodes 6 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 4 time 0 nodes 24 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 5 time 0 nodes 286 score cp 0 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 6 time 1 nodes 499 score cp 0 nps 499000 tbhits 0 pv f7f8",
+        "info depth 2 seldepth 6 time 1 nodes 513 score cp 0 nps 513000 tbhits 0 pv f7f8"
+      ],
+      "command": "go nodes 512 searchmoves f7f6 f7f8 f7g6",
+      "fen": "8/5k2/5P2/3K4/8/8/8/8 b - - 7 4",
+      "backend": [],
+      "draw_checks": {
+        "f7f6": "terminal draw",
+        "f7f8": "threefold path draw"
+      },
+      "arm": "fixed3-dag",
+      "case": "draw-choice-mirror",
+      "selection": {
+        "passed": true,
+        "rank": 2,
+        "selected_visits": 321,
+        "visited_children": 3
+      }
+    },
+    {
+      "move": "f5f4",
+      "san": "f4",
+      "seconds": 0.0009243969998351531,
+      "counters": {
+        "depth": 4,
+        "seldepth": 7,
+        "time": 0,
+        "nodes": 128
+      },
+      "native_nps": null,
+      "info": "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+      "pv": [
+        "f5f4",
+        "g5g6",
+        "a1a2",
+        "g7f6",
+        "f4f3",
+        "g6g7",
+        "f3f2"
+      ],
+      "pv_san": [
+        "f4",
+        "g6",
+        "Ka2",
+        "Kf6",
+        "f3",
+        "g7",
+        "f2"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 11
+      },
+      "stats": {
+        "a1b1": {
+          "move": "a1b1",
+          "n": 14,
+          "terminal": false,
+          "raw": "info string a1b1  (1614) N:      14 (+ 0) (P: 20.59%) (WL: -0.08507) (D: 0.000) (M:  2.4) (Q: -0.08507) (U: 0.27184) (S:  0.18677) (V:  -.----)",
+          "wl": -0.08507,
+          "d": 0.0,
+          "m": 2.4,
+          "q": -0.08507,
+          "p": 20.59
+        },
+        "a1a2": {
+          "move": "a1a2",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string a1a2  (1611) N:      26 (+ 0) (P: 30.81%) (WL: -0.01457) (D: 0.000) (M:  2.8) (Q: -0.01457) (U: 0.22595) (S:  0.21138) (V:  -.----)",
+          "wl": -0.01457,
+          "d": 0.0,
+          "m": 2.8,
+          "q": -0.01457,
+          "p": 30.81
+        },
+        "a1b2": {
+          "move": "a1b2",
+          "n": 28,
+          "terminal": false,
+          "raw": "info string a1b2  (1612) N:      28 (+ 0) (P: 33.86%) (WL: -0.03373) (D: 0.000) (M:  2.9) (Q: -0.03373) (U: 0.23120) (S:  0.19747) (V:  -.----)",
+          "wl": -0.03373,
+          "d": 0.0,
+          "m": 2.9,
+          "q": -0.03373,
+          "p": 33.86
+        },
+        "f5f4": {
+          "move": "f5f4",
+          "n": 59,
+          "terminal": false,
+          "raw": "info string f5f4  (830 ) N:      59 (+ 0) (P: 14.74%) (WL:  0.16235) (D: 0.000) (M:  3.4) (Q:  0.16235) (U: 0.04864) (S:  0.21100) (V:  -.----)",
+          "wl": 0.16235,
+          "d": 0.0,
+          "m": 3.4,
+          "q": 0.16235,
+          "p": 14.74
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 2 tbhits 0 pv a1b2 g7f6",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 0 tbhits 0 pv a1b2 g7f6 b2c3",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 11 tbhits 0 pv a1a2 g7f6 a2b3",
+        "info depth 2 seldepth 4 time 0 nodes 6 score cp 6 tbhits 0 pv a1a2 g7f6 a2b3 f6f7",
+        "info depth 2 seldepth 5 time 0 nodes 13 score cp 3 tbhits 0 pv a1a2 g7f6 a2b3 f6f7",
+        "info depth 2 seldepth 5 time 0 nodes 15 score cp 2 tbhits 0 pv a1b2 g7f6 b2c3 f6f7 c3c2",
+        "info depth 3 seldepth 5 time 0 nodes 17 score cp 4 tbhits 0 pv a1a2 g7f6 a2b3 f6f7 b3b2",
+        "info depth 3 seldepth 5 time 0 nodes 52 score cp 0 tbhits 0 pv a1b2 g5g6 b2c3 g7f6 c3c2",
+        "info depth 3 seldepth 6 time 0 nodes 60 score cp 1 tbhits 0 pv a1b2 g5g6 b2a2 g7f6 a2b3 g6g7",
+        "info depth 3 seldepth 6 time 0 nodes 84 score cp 12 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 a2b3",
+        "info depth 3 seldepth 7 time 0 nodes 109 score cp 13 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+        "info depth 4 seldepth 7 time 0 nodes 119 score cp 12 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2",
+        "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f5f4 g5g6 a1a2 g7f6 f4f3 g6g7 f3f2"
+      ],
+      "command": "go nodes 128",
+      "fen": "8/6K1/8/5pP1/8/8/8/k7 b - - 1 2",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "parser-white"
+    },
+    {
+      "move": "f4f5",
+      "san": "f5",
+      "seconds": 0.0009453559996472904,
+      "counters": {
+        "depth": 4,
+        "seldepth": 7,
+        "time": 0,
+        "nodes": 128
+      },
+      "native_nps": null,
+      "info": "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+      "pv": [
+        "f4f5",
+        "g4g3",
+        "a8a7",
+        "g2f3",
+        "f5f6",
+        "g3g2",
+        "f6f7"
+      ],
+      "pv_san": [
+        "f5",
+        "g3",
+        "Ka7",
+        "Kf3",
+        "f6",
+        "g2",
+        "f7"
+      ],
+      "score": {
+        "type": "cp",
+        "value": 11
+      },
+      "stats": {
+        "a8b8": {
+          "move": "a8b8",
+          "n": 14,
+          "terminal": false,
+          "raw": "info string a8b8  (1614) N:      14 (+ 0) (P: 20.59%) (WL: -0.08507) (D: 0.000) (M:  2.4) (Q: -0.08507) (U: 0.27184) (S:  0.18677) (V:  -.----)",
+          "wl": -0.08507,
+          "d": 0.0,
+          "m": 2.4,
+          "q": -0.08507,
+          "p": 20.59
+        },
+        "a8a7": {
+          "move": "a8a7",
+          "n": 26,
+          "terminal": false,
+          "raw": "info string a8a7  (1611) N:      26 (+ 0) (P: 30.81%) (WL: -0.01457) (D: 0.000) (M:  2.8) (Q: -0.01457) (U: 0.22595) (S:  0.21138) (V:  -.----)",
+          "wl": -0.01457,
+          "d": 0.0,
+          "m": 2.8,
+          "q": -0.01457,
+          "p": 30.81
+        },
+        "a8b7": {
+          "move": "a8b7",
+          "n": 28,
+          "terminal": false,
+          "raw": "info string a8b7  (1612) N:      28 (+ 0) (P: 33.86%) (WL: -0.03373) (D: 0.000) (M:  2.9) (Q: -0.03373) (U: 0.23120) (S:  0.19747) (V:  -.----)",
+          "wl": -0.03373,
+          "d": 0.0,
+          "m": 2.9,
+          "q": -0.03373,
+          "p": 33.86
+        },
+        "f4f5": {
+          "move": "f4f5",
+          "n": 59,
+          "terminal": false,
+          "raw": "info string f4f5  (830 ) N:      59 (+ 0) (P: 14.74%) (WL:  0.16235) (D: 0.000) (M:  3.4) (Q:  0.16235) (U: 0.04864) (S:  0.21100) (V:  -.----)",
+          "wl": 0.16235,
+          "d": 0.0,
+          "m": 3.4,
+          "q": 0.16235,
+          "p": 14.74
+        }
+      },
+      "updates": [
+        "info depth 1 seldepth 2 time 0 nodes 2 score cp 2 tbhits 0 pv a8b7 g2f3",
+        "info depth 2 seldepth 3 time 0 nodes 3 score cp 0 tbhits 0 pv a8b7 g2f3 b7c6",
+        "info depth 2 seldepth 3 time 0 nodes 5 score cp 11 tbhits 0 pv a8a7 g2f3 a7b6",
+        "info depth 2 seldepth 4 time 0 nodes 6 score cp 6 tbhits 0 pv a8a7 g2f3 a7b6 f3f2",
+        "info depth 2 seldepth 5 time 0 nodes 13 score cp 3 tbhits 0 pv a8a7 g2f3 a7b6 f3f2",
+        "info depth 2 seldepth 5 time 0 nodes 15 score cp 2 tbhits 0 pv a8b7 g2f3 b7c6 f3f2 c6c7",
+        "info depth 3 seldepth 5 time 0 nodes 17 score cp 4 tbhits 0 pv a8a7 g2f3 a7b6 f3f2 b6b7",
+        "info depth 3 seldepth 5 time 0 nodes 52 score cp 0 tbhits 0 pv a8b7 g4g3 b7c6 g2f3 c6c7",
+        "info depth 3 seldepth 6 time 0 nodes 60 score cp 1 tbhits 0 pv a8b7 g4g3 b7a7 g2f3 a7b6 g3g2",
+        "info depth 3 seldepth 6 time 0 nodes 84 score cp 12 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 a7b6",
+        "info depth 3 seldepth 7 time 0 nodes 109 score cp 13 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+        "info depth 4 seldepth 7 time 0 nodes 119 score cp 12 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7",
+        "info depth 4 seldepth 7 time 0 nodes 128 score cp 11 tbhits 0 pv f4f5 g4g3 a8a7 g2f3 f5f6 g3g2 f6f7"
+      ],
+      "command": "go nodes 128",
+      "fen": "K7/8/8/8/5Pp1/8/6k1/8 w - - 1 2",
+      "backend": [],
+      "arm": "fixed3-dag",
+      "case": "parser-black"
+    }
+  ],
+  "reused_completed_checks": [
+    "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/full-search/attempt-01/ordering.stdout"
+  ]
+}

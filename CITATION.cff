@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite VEGAM when using the original model or writing."
+title: "VEGAM: a learned square-transformer chess evaluator"
+authors:
+  - family-names: Victor
+    given-names: Remmy
+repository-code: "https://github.com/vikta03/vegam"
+version: 1.0.0
+license:
+  - GPL-3.0-or-later
+  - CC-BY-4.0

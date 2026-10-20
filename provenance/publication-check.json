@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "allowlisted_files": 2143,
+  "allowlist_sha256": "2795f8f104d71527a2bc80a57b2d77b779c095dd62fc45f3ed1ea7fd3363ca73",
+  "scope": [
+    "private path and known credential-pattern scan",
+    "optional AI author bylines and coauthor trailers",
+    "frozen source hash checks",
+    "entry-page local links",
+    "Python syntax"
+  ],
+  "limitations": "Automated patterns are complemented by manual source/metadata review; this is not a formal secrets audit."
+}

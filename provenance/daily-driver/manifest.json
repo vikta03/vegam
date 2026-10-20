@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-30T20:34:11.687312+00:00",
+  "name": "VEGAM-TF3-Q",
+  "source_package": "WORK/research/vegamt_fixed3/runs/20260928T081934Z-84179/candidate/package",
+  "binary_recompiled": false,
+  "model_origin": "NEXT/packages/wide-epoch3-trt3-io-20260924",
+  "runtime_directory": "NEXT/packages/wide-epoch3-trt3-io-20260924/lib",
+  "search": "classic",
+  "heads": {
+    "NextActionValues": true,
+    "NextMovesLeft": false,
+    "NextOutcomeBlend": false
+  },
+  "files": {
+    "next-chess": "3824cc57b9a7403bd13baabeb69799186271cea24e42c8f1957ae4ff38633482",
+    "model.onnx": "1534cbc469babebbb6225e0c5890ffeb984fc08e313fd84c78b674974d79e943",
+    "model.trt.onnx": "b2ede03c4ccf3870f7f77f6e36d50e5df2ccd565a0771c68b4d4b1510c70bfe6",
+    "model.trt.engine": "0e0804332892076f16c2932a38b9aeeae22f7e996b10e1af15a866552f54d97f",
+    "COPYING": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+    "lc0.config": "879cd1331e73ca326e945b53b6e764b60be7e7db5972f872c3a765ede7a57e87",
+    "vegamt-tf3-q": "7582b995031e9f19641a7d628b3233d7e80e5d6964962814bd61a85bcb4fbe5b"
+  },
+  "setup_checks": [
+    {
+      "kind": "direct",
+      "uci_defaults_verified": true,
+      "gpu_initialization": false,
+      "searches": 0
+    },
+    {
+      "kind": "alias",
+      "uci_defaults_verified": true,
+      "gpu_initialization": false,
+      "searches": 0
+    }
+  ],
+  "strength_evidence": "WORK/research/tf3_qhead_20261001/RESULTS.md",
+  "readiness": {
+    "utc": "2026-09-30T20:34:50.608633+00:00",
+    "searches": 0,
+    "games": 0,
+    "status": "passed",
+    "backend": "TensorRT engine",
+    "lanes": 2,
+    "heads": {
+      "action_values": 1,
+      "moves_left": 0,
+      "outcome_blend": 0
+    },
+    "exit_code": 0,
+    "gpu_processes_after": "",
+    "wall_seconds": 0.7189716260036221
+  }
+}

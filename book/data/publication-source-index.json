@@ -1,0 +1,26 @@
+{
+  "model": {
+    "path": "nextchess/model.py",
+    "sha256": "82c6978e44c0c252b89feaef4c14b8f3b8a9ec9e6e98440db6a5a94c717906cd"
+  },
+  "backend": {
+    "path": "engine/src/neural/next_backend.cc",
+    "sha256": "fe54d91c8e7721411c4e8ea15cc843490a1709e78be8a58aa3944c0275d0cc31"
+  },
+  "encoder": {
+    "path": "engine/src/neural/encoder.cc",
+    "sha256": "f8b1fc47e5f7ab85c9d38a21d1b03f09dba98a5c6760f61f8ebacacf5afbdfae"
+  },
+  "training": {
+    "path": "nextchess/cloud_train.py",
+    "sha256": "7e1018c27355474b86143b3f2ac6501b37819c970c92ec62d2af4dd7b4aeac02"
+  },
+  "search": {
+    "path": "engine/src/search/classic/search.cc",
+    "sha256": "6f2078fb93d795c6af6f01ab31c7cd733b19d713d055c3118d70aed41fd4a267"
+  },
+  "game": {
+    "path": "book/data/catalan.pgn",
+    "sha256": "35df7c8632c32073b22271ed9484c62f7440ed45a0a182200990a3e5648dec11"
+  }
+}

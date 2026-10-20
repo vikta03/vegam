@@ -1,0 +1,184 @@
+// GPL-3.0-or-later with the Lc0 NVIDIA exception.
+// Focused CPU regressions linked against this candidate's release objects.
+#include <algorithm>
+#include <array>
+#include <cmath>
+#include <iostream>
+#include <sstream>
+#include <stdexcept>
+#include <string>
+#include <vector>
+#include "chess/position.h"
+#include "search/classic/node.h"
+
+using namespace lczero;
+using namespace lczero::classic;
+unsigned checks = 0;
+
+void Check(bool condition, const char* why) {
+  if (!condition) throw std::runtime_error(why);
+  ++checks;
+}
+
+auto MoveComparator(float draw_score) {
+  // Substituted verbatim from the search source used in this build.
+  return __EXTRACTED_COMPARATOR__;
+}
+
+struct State {
+  int n;
+  float q, d, prior, m;
+  int terminal;  // 0 unresolved, 1 end-of-game, 2 tablebase, 3 twofold.
+};
+
+void ComparatorChecks() {
+  const std::vector<State> states{
+      {10,0,1,.25f,1,1}, {30,0,1,.25f,3,1}, {20,0,1,.25f,0,0},
+      {0,0,0,.1f,0,0}, {0,0,0,.8f,0,0},
+      {5,.2f,.3f,.25f,0,0}, {5,.3f,.3f,.25f,0,0},
+      {5,.2f,.3f,.1f,0,0}, {5,.2f,.3f,.8f,0,0},
+      {10,0,1,.25f,1,1}, {10,0,1,.25f,3,1},
+      {10,0,1,.25f,1,2}, {10,0,1,.25f,4,3},
+      {10,0,.2f,.25f,0,0}, {10,0,.8f,.25f,0,0},
+      {3,1,0,.25f,1,1}, {100,1,0,.25f,7,1},
+      {3,1,0,.25f,1,2}, {100,1,0,.25f,7,2},
+      {3,-1,0,.25f,1,1}, {100,-1,0,.25f,7,1},
+      {3,-1,0,.25f,1,2}, {100,-1,0,.25f,7,2},
+      {1,-.9f,.05f,.25f,0,0}, {1000,.9f,.05f,.25f,0,0},
+      {10,0,1,.25f,0,1}, {30,0,1,.25f,0,1},
+  };
+  Node root(nullptr, 0);
+  MoveList moves;
+  for (size_t i = 0; i < states.size(); ++i)
+    moves.push_back(Move::White(Square::FromIdx(i), Square::FromIdx(i+32)));
+  root.CreateEdges(moves);
+  std::vector<EdgeAndNode> edges;
+  unsigned i = 0;
+  for (auto edge : root.Edges()) {
+    const State& state = states[i++];
+    Node* child = edge.GetOrSpawnNode(&root);
+    edge.edge()->SetP(state.prior);
+    for (int n = 0; n < state.n; ++n) {
+      Check(child->TryStartScoreUpdate(), "reservation failed");
+      child->FinalizeScoreUpdate(state.q, state.d, state.m, 1);
+    }
+    if (state.terminal) {
+      const auto result = state.q > 0 ? GameResult::WHITE_WON
+                        : state.q < 0 ? GameResult::BLACK_WON : GameResult::DRAW;
+      const auto type = state.terminal == 1 ? Node::Terminal::EndOfGame
+                      : state.terminal == 2 ? Node::Terminal::Tablebase
+                                            : Node::Terminal::TwoFold;
+      child->MakeTerminal(result, state.m, type);
+    }
+    edges.emplace_back(edge.edge(), child);
+  }
+  for (float draw_score : {-1.0f, 0.0f, 1.0f}) {
+    const auto prefer = MoveComparator(draw_score);
+    const auto equiv = [&](const auto& a, const auto& b) {
+      return !prefer(a,b) && !prefer(b,a);
+    };
+    for (const auto& a : edges) {
+      Check(!prefer(a,a), "comparison not irreflexive");
+      for (const auto& b : edges) {
+        Check(!(prefer(a,b) && prefer(b,a)), "comparison not asymmetric");
+        for (const auto& c : edges) {
+          Check(!(prefer(a,b) && prefer(b,c)) || prefer(a,c),
+                "comparison not transitive");
+          Check(!(equiv(a,b) && equiv(b,c)) || equiv(a,c),
+                "comparison equivalence not transitive");
+        }
+      }
+    }
+    std::array<int,3> order{0,1,2};
+    do {
+      std::vector<EdgeAndNode> sorted{edges[order[0]],edges[order[1]],edges[order[2]]};
+      std::partial_sort(sorted.begin(),sorted.begin()+1,sorted.end(),prefer);
+      Check(sorted.front()==edges[1], "original witness order changed winner");
+      sorted = {edges[order[0]],edges[order[1]],edges[order[2]]};
+      std::partial_sort(sorted.begin(),sorted.end(),sorted.end(),prefer);
+      Check(sorted[0]==edges[1] && sorted[1]==edges[2] && sorted[2]==edges[0],
+            "original witness MultiPV order inconsistent");
+    } while (std::next_permutation(order.begin(),order.end()));
+    std::array<int,3> equal_length{2,25,26};
+    do {
+      std::vector<EdgeAndNode> sorted{edges[equal_length[0]],edges[equal_length[1]],edges[equal_length[2]]};
+      std::partial_sort(sorted.begin(),sorted.begin()+1,sorted.end(),prefer);
+      Check(sorted.front()==edges[26], "equal-zero-distance witness changed winner");
+    } while (std::next_permutation(equal_length.begin(),equal_length.end()));
+    Check(prefer(edges[15],edges[16]), "shorter mate no longer preferred");
+    Check(prefer(edges[15],edges[17]), "mate no longer preferred to TB win");
+    Check(prefer(edges[17],edges[18]), "shorter TB win no longer preferred");
+    Check(prefer(edges[17],edges[24]), "TB win no longer preferred to unresolved");
+    Check(prefer(edges[20],edges[19]), "longer mate loss no longer preferred");
+    Check(prefer(edges[22],edges[21]), "longer TB loss no longer preferred");
+    Check(prefer(edges[21],edges[19]), "TB loss no longer preferred to mate loss");
+    Check(prefer(edges[23],edges[21]), "unresolved no longer preferred to TB loss");
+    Check(prefer(edges[4],edges[3]), "unvisited prior preference changed");
+    Check(prefer(edges[6],edges[5]), "equal-visit Q preference changed");
+    Check(prefer(edges[8],edges[7]), "equal-Q prior preference changed");
+    Check(equiv(edges[9],edges[10]), "distance improperly reorders draw tie");
+  }
+  Check(sizeof(Node)==64, "Node storage grew");
+  std::cout << "comparator\t" << checks << "\t" << states.size() << '\n';
+}
+
+void History(const std::string& id, const std::string& fen,
+             const std::string& sequence) {
+  PositionHistory history;
+  history.Reset(Position::FromFen(fen));
+  int ply = 0;
+  const auto output = [&]() {
+    const auto& pos = history.Last();
+    std::cout << "history\t" << id << '\t' << ply << '\t'
+              << pos.GetRepetitions() << '\t' << pos.GetPliesSincePrevRepetition()
+              << '\t' << static_cast<int>(history.ComputeGameResult())
+              << '\t' << PositionToFen(pos) << '\n';
+  };
+  output();
+  std::istringstream tokens(sequence);
+  std::string token;
+  while (tokens >> token) {
+    const auto& board = history.Last().GetBoard();
+    auto move = board.ParseMove(token);
+    auto legal = board.GenerateLegalMoves();
+    Check(std::find(legal.begin(),legal.end(),move)!=legal.end(), "illegal history move");
+    history.Append(move);
+    ++ply;
+    output();
+  }
+}
+
+void Pair(const std::string& id, const std::string& first, const std::string& second) {
+  Position a = Position::FromFen(first), b = Position::FromFen(second);
+  const auto a_fen = PositionToFen(a), b_fen = PositionToFen(b);
+  const auto a_hash = a.GetBoard().Hash(), b_hash = b.GetBoard().Hash();
+  const auto& lhs = a.GetBoard(); const auto& rhs = b.GetBoard();
+  const bool same = lhs.IsSamePositionForRepetition(rhs);
+  Check(same==rhs.IsSamePositionForRepetition(lhs), "repetition equality asymmetric");
+  Check(a_hash==lhs.Hash() && b_hash==rhs.Hash(), "comparison modified board hash");
+  Check(a_fen==PositionToFen(a) && b_fen==PositionToFen(b), "comparison modified FEN");
+  std::cout << "pair\t" << id << '\t' << (lhs==rhs) << '\t' << same
+            << '\t' << (a_hash==b_hash) << '\t' << a_fen << '\t' << b_fen << '\n';
+}
+
+int main() {
+  try {
+    InitializeMagicBitboards();
+    ComparatorChecks();
+    std::string line;
+    while (std::getline(std::cin,line)) {
+      std::istringstream input(line);
+      std::string mode, id, first, second;
+      std::getline(input,mode,'\t'); std::getline(input,id,'\t');
+      std::getline(input,first,'\t'); std::getline(input,second);
+      if (mode=="history") History(id,first,second);
+      else if (mode=="pair") Pair(id,first,second);
+      else throw std::runtime_error("unknown input mode");
+    }
+    std::cout << "checks\t" << checks << '\n';
+    return 0;
+  } catch (const std::exception& error) {
+    std::cerr << "FAILED: " << error.what() << '\n';
+    return 1;
+  }
+}

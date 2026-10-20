@@ -1,0 +1,6 @@
+# CPU development, tests and ONNX manipulation. PyTorch is installed separately.
+numpy==2.5.1
+chess==1.11.2
+onnx==1.22.0
+meson==1.11.2
+ninja==1.13.0
