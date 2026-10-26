@@ -22,7 +22,20 @@ Then intervene on those internal signals and measure what changes.
 VEGAM brings the engine, its trained weights, the experiments and an illustrated
 102-page technical book into one project.
 
+**In 30 seconds:** I built and trained the **9.8M-parameter chess model**,
+integrated it with Lc0-derived search, and made its internals visible. You can
+**[play the engine](docs/INSTALL.md)**,
+**[read the illustrated book](https://github.com/vikta03/vegam/releases/download/v1.0.0/inside-vegam.pdf)**,
+or **[watch the bishop reel](https://github.com/vikta03/vegam/releases/download/v1.0.0/inside-vegam-bishop-reel.mp4)**.
+The investigation also produced upstream bug reports, including a merged Lc0 fix.
+
+For the complementary CPU approach, see **[FORGE](https://github.com/vikta03/forge)**:
+incremental learned evaluation, specialist networks, and a 3D model explorer.
+
 ## The engine
+
+<details>
+<summary><strong>Technical specifications and source lineage</strong></summary>
 
 | | VEGAM-TF3-Q |
 |---|---|
@@ -43,6 +56,8 @@ The model architecture, training pipeline, export and inference integration are
 VEGAM work. Move generation, the search framework, time management and UCI are
 derived from **[Leela Chess Zero](https://github.com/LeelaChessZero/lc0)**.
 The boundaries and exact source lineage are documented in [Architecture](docs/ARCHITECTURE.md).
+
+</details>
 
 <div align="center">
 <img src="book/figures/architecture.png" alt="The network's two readout routes and how its outputs feed search" width="650">
